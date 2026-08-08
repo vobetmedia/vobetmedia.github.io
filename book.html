@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book Your Free Strategy Call — Growthapy</title>
+  <meta name="description" content="Answer four quick questions and pick a time for your free Growthapy strategy call." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="vsl-page">
+
+  <!-- ══════════ MINIMAL HEADER ══════════ -->
+  <header class="vsl-header">
+    <div class="container vsl-header__inner">
+      <a href="index.html" class="nav__logo"><span class="nav__logo-word">growthapy</span><span class="nav__logo-star">✳</span></a>
+      <a href="training.html" class="vsl-header__back">← Back to training</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ══════════ QUALIFYING FLOW + CALENDAR ══════════ -->
+    <section class="section book-section" id="apply">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow reveal">STEP 2 OF 2</div>
+          <h2 class="reveal">Book Your Free Strategy Call</h2>
+          <p class="reveal">Four quick questions, then pick your time. Under 60 seconds.</p>
+        </div>
+
+        <div class="quiz reveal" id="quiz">
+          <div class="quiz__progress">
+            <div class="quiz__progress-track"><i id="quizBar"></i></div>
+            <span class="quiz__progress-label" id="quizLabel">Step 1 of 5</span>
+          </div>
+
+          <!-- Step 1 -->
+          <div class="quiz__step active" data-step="0">
+            <h3>What type of home service business do you run?</h3>
+            <div class="quiz__options">
+              <button class="quiz__option" data-value="Roofing / Exteriors">🏠 Roofing / Exteriors</button>
+              <button class="quiz__option" data-value="HVAC / Plumbing / Electrical">🔧 HVAC / Plumbing / Electrical</button>
+              <button class="quiz__option" data-value="Landscaping / Outdoor">🌿 Landscaping / Driveways / Outdoor</button>
+              <button class="quiz__option" data-value="Windows / Kitchens / Renovations">🪟 Windows / Kitchens / Renovations</button>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="quiz__step" data-step="1">
+            <h3>What's your current monthly revenue?</h3>
+            <div class="quiz__options">
+              <button class="quiz__option" data-value="Under $10k">Under $10k</button>
+              <button class="quiz__option" data-value="$10k – $50k">$10k – $50k</button>
+              <button class="quiz__option" data-value="$50k – $250k">$50k – $250k</button>
+              <button class="quiz__option" data-value="$250k+">$250k+</button>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="quiz__step" data-step="2">
+            <h3>What can you invest monthly in growth (ads + fees)?</h3>
+            <div class="quiz__options">
+              <button class="quiz__option" data-value="Under $1k" data-disqualify="true">Under $1k</button>
+              <button class="quiz__option" data-value="$1k – $5k">$1k – $5k</button>
+              <button class="quiz__option" data-value="$5k – $20k">$5k – $20k</button>
+              <button class="quiz__option" data-value="$20k+">$20k+</button>
+            </div>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="quiz__step" data-step="3">
+            <h3>What's your biggest bottleneck right now?</h3>
+            <div class="quiz__options">
+              <button class="quiz__option" data-value="Not enough enquiries">Not enough enquiries</button>
+              <button class="quiz__option" data-value="Can't respond fast enough">Can't respond fast enough</button>
+              <button class="quiz__option" data-value="Quotes don't convert">Quotes sent, never followed up</button>
+              <button class="quiz__option" data-value="Feast or famine months">Feast or famine months</button>
+            </div>
+          </div>
+
+          <!-- Step 5: contact -->
+          <div class="quiz__step" data-step="4">
+            <h3>Where should we send your call details?</h3>
+            <form class="quiz__form" id="quizForm">
+              <input type="text" id="qName" placeholder="Your name" required />
+              <input type="email" id="qEmail" placeholder="Work email" required />
+              <input type="url" id="qSite" placeholder="Website (optional)" />
+              <button type="submit" class="btn btn--primary btn--lg btn--block">See Available Times →</button>
+            </form>
+          </div>
+
+          <!-- Calendar step -->
+          <div class="quiz__step" data-step="5">
+            <h3 id="calTitle">Pick a time for your free strategy call</h3>
+            <!-- To use Calendly instead: delete .cal below and paste your
+                 Calendly inline embed snippet here. -->
+            <div class="cal">
+              <div class="cal__dates" id="calDates"></div>
+              <div class="cal__slots" id="calSlots">
+                <p class="cal__hint">← Pick a date first</p>
+              </div>
+            </div>
+            <button class="btn btn--primary btn--lg btn--block" id="calConfirm" disabled>Confirm Booking</button>
+          </div>
+
+          <!-- Success -->
+          <div class="quiz__step" data-step="6">
+            <div class="quiz__success">
+              <div class="quiz__success-icon">✓</div>
+              <h3>You're booked in!</h3>
+              <p id="successSummary">We'll send a confirmation and calendar invite shortly.</p>
+              <p class="quiz__success-note">Keep an eye on your inbox — you'll get a short prep sheet so we can hit the ground running on the call.</p>
+              <a href="index.html" class="btn btn--ghost">Back to site</a>
+            </div>
+          </div>
+
+          <!-- Not qualified -->
+          <div class="quiz__step" data-step="7">
+            <div class="quiz__success">
+              <div class="quiz__success-icon quiz__success-icon--soft">✉</div>
+              <h3>We're probably not the right fit — yet.</h3>
+              <p>Our system works best with a growth budget of $1k+/month. Until then, paying an agency would hurt more than help — and we'd rather tell you that now.</p>
+              <p class="quiz__success-note">Grab our free DIY growth checklist instead and come back when you're ready.</p>
+              <a href="mailto:hello@growthapy.com?subject=DIY%20Growth%20Checklist" class="btn btn--primary">Get the Free Checklist</a>
+            </div>
+          </div>
+
+          <button class="quiz__back" id="quizBack" hidden>← Back</button>
+        </div>
+
+        <div class="book-trust reveal">
+          <div class="hero__avatars">
+            <span class="avatar">JR</span><span class="avatar">AM</span><span class="avatar">SK</span><span class="avatar avatar--more">+56</span>
+          </div>
+          <p>Trusted by <strong>60+ Companies</strong> · 90-day guarantee · No pressure, no obligation</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="vsl-footer">
+    <div class="container vsl-footer__inner">
+      <span>© Growthapy 2026</span>
+      <a href="index.html">growthapy.com</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="vsl.js"></script>
+</body>
+</html>
