@@ -2703,3 +2703,8 @@ a.result-card:hover {
   box-shadow: none;
 }
 .result-card--next .btn { margin-top: 18px; align-self: flex-start; }
+
+/* homepage proof: never scrolls — the image always fits its container */
+.hero-proof .shot-rail { overflow-x: visible; }
+.hero-proof .shot-rail img { width: 100%; min-width: 0; max-width: 100%; }
+.hero-proof .shot-hint { display: none; }
