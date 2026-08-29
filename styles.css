@@ -2680,3 +2680,26 @@ a.cs-card:hover { transform: translateY(-3px); box-shadow: 0 10px 30px rgba(7, 5
   .highlight__stats { grid-template-columns: 1fr; }
   .highlight__stat-wide { grid-column: span 1; }
 }
+
+/* result cards are links to the case studies now */
+a.result-card { transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease; }
+a.result-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(0, 78, 14, 0.28);
+  box-shadow: 0 10px 30px rgba(7, 54, 19, 0.09);
+}
+
+.result-card__link {
+  display: inline-block;
+  margin-top: 16px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--green);
+}
+
+.result-card--next {
+  background: var(--tint);
+  border-style: dashed;
+  box-shadow: none;
+}
+.result-card--next .btn { margin-top: 18px; align-self: flex-start; }
