@@ -2556,3 +2556,127 @@ a.cs-card:hover { transform: translateY(-3px); box-shadow: 0 10px 30px rgba(7, 5
   .shot-rail img { width: 1180px; max-width: none; }
   .shot-hint { display: block; }
 }
+
+/* ── Five-up stat strip ─────────────────────── */
+
+.vsl-proof__grid--five { grid-template-columns: repeat(5, 1fr); }
+
+/* ── Ad set breakdown table ─────────────────── */
+
+.ad-table {
+  width: 100%;
+  min-width: 720px;
+  border-collapse: collapse;
+  font-size: 14.5px;
+  background: var(--white);
+}
+
+.ad-table th {
+  text-align: right;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  padding: 0 0.9rem 12px;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+.ad-table th:first-child { text-align: left; }
+
+.ad-table td {
+  padding: 13px 0.9rem;
+  text-align: right;
+  border-bottom: 1px solid rgba(220, 233, 215, 0.7);
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.ad-table td:first-child { text-align: left; font-weight: 500; color: var(--green); }
+
+.ad-table tbody tr:hover { background: var(--tint); }
+
+.ad-table tfoot td {
+  border-bottom: 0;
+  border-top: 2px solid var(--border);
+  font-weight: 600;
+  color: var(--green);
+  background: var(--tint);
+}
+
+@media (max-width: 620px) {
+  .vsl-proof__grid--five { grid-template-columns: repeat(2, 1fr); gap: 16px; }
+}
+
+/* ══════════════════════════════════════════════
+   Homepage highlight — featured case study
+   ══════════════════════════════════════════════ */
+
+.highlight { padding: var(--space-section-tight) 0; }
+
+.highlight__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(2rem, 5vw, 4rem);
+  align-items: center;
+}
+
+.highlight__copy h2 { margin-top: 0.4rem; max-width: 18ch; }
+
+.highlight__copy p {
+  margin-top: 1.2rem;
+  font-size: clamp(1rem, 1.6vw, 1.15rem);
+  line-height: 1.72;
+  color: var(--muted);
+  text-wrap: pretty;
+  max-width: 46ch;
+}
+
+.highlight__copy .btn { margin-top: 1.8rem; }
+
+.highlight__stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.highlight__stats div {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+  padding: 1.4rem 1.2rem;
+}
+
+.highlight__stats strong {
+  display: block;
+  font-size: clamp(1.7rem, 3vw, 2.3rem);
+  font-weight: 500;
+  letter-spacing: -0.035em;
+  line-height: 1.05;
+  color: var(--green);
+  font-variant-numeric: tabular-nums;
+}
+
+.highlight__stats span {
+  display: block;
+  margin-top: 0.35rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.highlight__stat-wide {
+  grid-column: span 2;
+  background: linear-gradient(180deg, #ffffff 0%, var(--tint) 100%) !important;
+  border-color: rgba(0, 78, 14, 0.24) !important;
+}
+
+@media (max-width: 900px) {
+  .highlight__inner { grid-template-columns: 1fr; gap: 2.2rem; }
+  .highlight__copy h2 { max-width: none; }
+}
+
+@media (max-width: 520px) {
+  .highlight__stats { grid-template-columns: 1fr; }
+  .highlight__stat-wide { grid-column: span 1; }
+}
