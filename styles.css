@@ -2708,3 +2708,64 @@ a.result-card:hover {
 .hero-proof .shot-rail { overflow-x: visible; }
 .hero-proof .shot-rail img { width: 100%; min-width: 0; max-width: 100%; }
 .hero-proof .shot-hint { display: none; }
+
+/* ── Homepage proof: stat row + compact ad table ─────────── */
+
+.proof-stats {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+  margin-top: clamp(1.4rem, 3vw, 2rem);
+}
+
+.proof-stats div {
+  text-align: center;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+  padding: 1.1rem 0.6rem;
+}
+
+.proof-stats strong {
+  display: block;
+  font-size: clamp(1.5rem, 2.6vw, 2rem);
+  font-weight: 500;
+  letter-spacing: -0.035em;
+  line-height: 1.1;
+  color: var(--green);
+  font-variant-numeric: tabular-nums;
+}
+
+.proof-stats span {
+  display: block;
+  margin-top: 0.3rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+/* four columns, so it fits without scrolling at any width */
+.ad-table--compact { min-width: 0; }
+
+.hero-proof__shot-note {
+  margin-top: 1rem;
+  max-width: 78ch;
+  font-size: 0.92rem;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+@media (max-width: 860px) {
+  .proof-stats { grid-template-columns: repeat(3, 1fr); }
+  .proof-stats div:nth-child(4) { grid-column: 1 / 2; }
+}
+
+@media (max-width: 560px) {
+  .proof-stats { grid-template-columns: repeat(2, 1fr); }
+  .proof-stats div:nth-child(4) { grid-column: auto; }
+  .proof-stats div:last-child { grid-column: span 2; }
+  .ad-table--compact { font-size: 12.5px; }
+  .ad-table--compact th, .ad-table--compact td { padding-inline: 0.4rem; }
+  .ad-table--compact th { font-size: 9.5px; letter-spacing: 0.06em; }
+  .ad-table--compact td:first-child { white-space: normal; }
+}
