@@ -2805,3 +2805,42 @@ a.result-card:hover {
 @media (max-width: 620px) {
   .onboard-assets { grid-template-columns: 1fr; }
 }
+
+/* ══════════════════════════════════════════════
+   Legal pages (privacy-policy.html, etc.)
+   ══════════════════════════════════════════════ */
+
+.legal { max-width: 760px; margin: 0 auto; }
+
+.legal > p:first-child { margin-top: 0; }
+
+.legal p {
+  font-size: 0.98rem;
+  line-height: 1.75;
+  color: var(--muted);
+  margin: 0 0 1.1rem;
+}
+
+.legal h2 {
+  font-size: clamp(1.1rem, 2vw, 1.3rem);
+  color: var(--white);
+  margin: 2.4rem 0 0.9rem;
+}
+.legal h2:first-of-type { margin-top: 0.5rem; }
+
+.legal ul {
+  margin: 0 0 1.3rem;
+  padding-left: 1.3rem;
+  display: grid;
+  gap: 0.6rem;
+}
+.legal li {
+  font-size: 0.98rem;
+  line-height: 1.7;
+  color: var(--muted);
+  list-style: disc;
+}
+.legal li strong { color: var(--white); font-weight: 600; }
+
+.legal a { color: var(--white); text-decoration: underline; text-underline-offset: 2px; }
+.legal a:hover { color: var(--green); }
