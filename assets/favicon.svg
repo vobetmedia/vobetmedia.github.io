@@ -2,7 +2,6 @@
   <defs><linearGradient id="g" x1="8.8" y1="9.2" x2="24.2" y2="5.9" gradientUnits="userSpaceOnUse">
     <stop offset="0%" stop-color="#ffffff"/><stop offset="55%" stop-color="#ff5fa0"/><stop offset="100%" stop-color="#ec0868"/>
   </linearGradient></defs>
-  <rect width="32" height="32" fill="#000000"/>
   <path d="M8.8 9.2 15.6 22.4" stroke="url(#g)" stroke-width="2.9" stroke-linecap="round" fill="none"/>
   <path d="M15.6 22.4 24.2 5.9" stroke="url(#g)" stroke-width="2.9" stroke-linecap="round" fill="none"/>
 </svg>
