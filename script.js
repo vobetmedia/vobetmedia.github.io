@@ -1,12 +1,3 @@
-// Header: full-width bar at top → floating pill on scroll
-const navWrap = document.querySelector('.nav-wrap');
-if (navWrap) {
-  const onScroll = () =>
-    navWrap.classList.toggle('scrolled', window.scrollY > 24);
-  window.addEventListener('scroll', onScroll, { passive: true });
-  onScroll();
-}
-
 // Mobile nav
 const burger = document.getElementById('navBurger');
 const navLinks = document.getElementById('navLinks');

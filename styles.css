@@ -276,12 +276,13 @@ h4 {
 
 .nav-wrap {
   position: sticky;
-  top: 10px;
+  top: 0;
   z-index: 100;
   padding: 0;
+  background: transparent;
 }
 
-/* floating card header, permanently detached from the page edge */
+/* flush, full-width bar — no floating card, no background, no border */
 .nav {
   position: relative;
   display: grid;
@@ -289,18 +290,9 @@ h4 {
   align-items: center;
   gap: 1.25rem;
   width: min(1080px, 100% - 32px);
-  background: rgba(10, 10, 10, 0.88);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-card);
-  padding: 0.75rem;
-  margin: 16px auto 0;
-  box-shadow: var(--shadow-float);
-  transition: box-shadow 0.3s ease;
+  margin: 0 auto;
+  padding: 1.1rem 0;
 }
-
-.nav-wrap.scrolled .nav { box-shadow: 0 10px 30px rgba(223, 7, 9, 0.1); }
 
 .nav__logo { padding-left: 6px; }
 
@@ -381,14 +373,33 @@ h4 {
 /* ── Hero ─────────────────────────────────── */
 
 .hero {
+  position: relative;
+  overflow: hidden;
   padding: clamp(4.5rem, 9vw, 7.5rem) 0 var(--space-section-tight);
   text-align: left;
-  background:
-    radial-gradient(60% 55% at 12% 0%, rgba(223, 7, 9, 0.16), transparent 70%),
-    var(--bg);
+  background: var(--bg);
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: url('assets/hero-skyline.jpg') center 30% / cover no-repeat;
+  opacity: 0.19;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: radial-gradient(60% 55% at 12% 0%, rgba(223, 7, 9, 0.16), transparent 70%);
 }
 
 .hero__inner {
+  position: relative;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
