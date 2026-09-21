@@ -840,14 +840,18 @@ p { color: var(--muted); }
 .footer__bottom div { display: flex; gap: 20px; }
 .footer__bottom a:hover { color: var(--ink); }
 
-/* ── Reveal animation ─────────────────────── */
+/* ── Page-load appear (extracted from the Framer template) ──
+   Only the hero + nav animate on load; nothing animates on scroll.
+   Elements are held invisible only once JS has confirmed it will run. */
 
-.reveal {
-  opacity: 0;
-  transform: translateY(18px);
-  transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1), transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+.js [data-appear],
+.js [data-appear-words] { opacity: 0.001; }
+.js .appear-word { opacity: 0.001; filter: blur(10px); transform: translateY(10px); }
+.appear-word { display: inline-block; will-change: transform, filter, opacity; }
+
+@media (prefers-reduced-motion: reduce) {
+  .js [data-appear], .js [data-appear-words], .js .appear-word { opacity: 1; filter: none; transform: none; }
 }
-.reveal.visible { opacity: 1; transform: none; }
 
 /* ── Responsive ───────────────────────────── */
 
@@ -1419,18 +1423,6 @@ p { color: var(--muted); }
 
   .vsl-sticky-cta { display: block; }
   .vsl-page main { padding-bottom: 68px; }
-}
-
-/* ── Reveal animation ─────────────────────── */
-
-.reveal {
-  opacity: 0;
-  transform: translateY(18px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
-}
-.reveal.visible {
-  opacity: 1;
-  transform: none;
 }
 
 /* ── Responsive ───────────────────────────── */

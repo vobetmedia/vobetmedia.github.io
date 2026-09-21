@@ -36,13 +36,14 @@
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
 
+  <script>document.documentElement.classList.add('js');</script>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
   <!-- ══════════ NAV ══════════ -->
   <header class="nav-wrap">
-    <nav class="nav">
+    <nav class="nav" data-appear>
       <a href="#" class="nav__logo" aria-label="Vobet Media — home"><span class="nav__logo-mark" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="vobetLogoGrad" x1="8.8" y1="9.2" x2="24.2" y2="5.9" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#ffffff"/><stop offset="55%" stop-color="#ff5fa0"/><stop offset="100%" stop-color="#ec0868"/></linearGradient></defs><path d="M8.8 9.2 15.6 22.4" stroke="url(#vobetLogoGrad)" stroke-width="2.9" stroke-linecap="round"/><path d="M15.6 22.4 24.2 5.9" stroke="url(#vobetLogoGrad)" stroke-width="2.9" stroke-linecap="round"/></svg></span><span class="nav__logo-text"><span class="nav__logo-name">Vobet</span><span class="nav__logo-sub">Media</span></span></a>
       <div class="nav__links" id="navLinks">
         <a href="#how-it-works">How It Works</a>
@@ -63,19 +64,19 @@
 
     <!-- ══════════ HERO ══════════ -->
     <section class="hero">
-      <div class="glow" aria-hidden="true"><i></i><i></i><i></i></div>
+      <div class="glow" aria-hidden="true" data-appear="glow"><i></i><i></i><i></i></div>
       <div class="container hero__inner">
-        <div class="hero__kicker reveal"><span class="hero__stars" aria-hidden="true">★★★★★</span><span>$100K+ generated in client results</span></div>
-        <h1 class="reveal">We Help Service Businesses Generate More <em>Leads.</em></h1>
-        <p class="hero__sub reveal">
+        <div class="hero__kicker reveal" data-appear="fade"><span class="hero__stars" aria-hidden="true">★★★★★</span><span>$100K+ generated in client results</span></div>
+        <h1 class="reveal" data-appear-words>We Help Service Businesses Generate More <em>Leads.</em></h1>
+        <p class="hero__sub reveal" data-appear-words>
           We build and run the ads, the forms, and the follow-up — so your calendar stays full of
           qualified jobs, and you spend your time on the tools, not chasing leads.
         </p>
-        <div class="hero__actions reveal">
+        <div class="hero__actions reveal" data-appear="fade">
           <a href="book.html" class="btn btn--primary btn--lg">Book a call</a>
           <a href="case-studies.html" class="btn btn--ghost btn--lg">See Our Work</a>
         </div>
-        <div class="hero__trust reveal">
+        <div class="hero__trust reveal" data-appear="fade">
           <p>Trusted by <strong>service businesses</strong> across the U.S.</p>
         </div>
       </div>
