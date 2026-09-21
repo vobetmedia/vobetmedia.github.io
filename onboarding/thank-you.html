@@ -7,7 +7,8 @@
   <meta name="robots" content="noindex, nofollow" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap" rel="stylesheet" />
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet" />
   <meta name="theme-color" content="#000000" />
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="../styles.css" />
@@ -15,11 +16,15 @@
 <body>
 
   <header class="nav-wrap">
-    <nav class="nav container">
+    <nav class="nav">
       <a href="../index.html" class="nav__logo" aria-label="Vobet Media — home"><span class="nav__logo-mark" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="vobetLogoGrad" x1="8.8" y1="9.2" x2="24.2" y2="5.9" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#ffffff"/><stop offset="55%" stop-color="#ff5fa0"/><stop offset="100%" stop-color="#ec0868"/></linearGradient></defs><path d="M8.8 9.2 15.6 22.4" stroke="url(#vobetLogoGrad)" stroke-width="2.9" stroke-linecap="round"/><path d="M15.6 22.4 24.2 5.9" stroke="url(#vobetLogoGrad)" stroke-width="2.9" stroke-linecap="round"/></svg></span><span class="nav__logo-text"><span class="nav__logo-name">Vobet</span><span class="nav__logo-sub">Media</span></span></a>
-      <div class="nav__links" id="navLinks"></div>
+      <div class="nav__links" id="navLinks">
+        <a href="../index.html#how-it-works">How It Works</a>
+        <a href="../case-studies.html">Case Studies</a>
+        <a href="../blog.html">Blog</a>
+      </div>
       <div class="nav__cta">
-        <a href="../index.html" class="btn btn--primary">Back to Site</a>
+        <a href="../book.html" class="btn btn--primary">Book a call</a>
       </div>
       <button class="nav__burger" id="navBurger" aria-label="Open menu">
         <span></span><span></span><span></span>
@@ -31,7 +36,7 @@
     <section class="onboard-hero" style="text-align:center; padding:clamp(5rem,12vw,8rem) 0;">
       <div class="container" style="display:flex; flex-direction:column; align-items:center;">
         <div class="onboard-hero__kicker">SUBMISSION RECEIVED</div>
-        <h1 style="max-width:640px;">You're All Set.</h1>
+        <h1 style="max-width:640px;">You're all <em>set.</em></h1>
         <p style="max-width:520px; margin-left:auto; margin-right:auto;">
           Thanks for filling that out in full — it's exactly what we need to get your campaign built.
           We'll be in touch within one business day to confirm everything and get things moving.
@@ -42,8 +47,42 @@
   </main>
 
   <footer class="footer">
-    <div class="container footer__bottom" style="border-top:0; justify-content:center;">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="../index.html" class="nav__logo" aria-label="Vobet Media — home"><span class="nav__logo-mark" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="vobetLogoGrad" x1="8.8" y1="9.2" x2="24.2" y2="5.9" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#ffffff"/><stop offset="55%" stop-color="#ff5fa0"/><stop offset="100%" stop-color="#ec0868"/></linearGradient></defs><path d="M8.8 9.2 15.6 22.4" stroke="url(#vobetLogoGrad)" stroke-width="2.9" stroke-linecap="round"/><path d="M15.6 22.4 24.2 5.9" stroke="url(#vobetLogoGrad)" stroke-width="2.9" stroke-linecap="round"/></svg></span><span class="nav__logo-text"><span class="nav__logo-name">Vobet</span><span class="nav__logo-sub">Media</span></span></a>
+        <p>Meta and Google campaigns, qualifying forms, and follow-up systems — built for service businesses only.</p>
+        <p class="footer__contact">
+          <a href="mailto:hello@vobetmedia.com">hello@vobetmedia.com</a><br />
+          07000 000000
+        </p>
+      </div>
+      <div class="footer__col">
+        <h4>Pages</h4>
+        <a href="../index.html#how-it-works">How It Works</a>
+        <a href="../index.html#results">Results</a>
+        <a href="../case-studies.html">Case Studies</a>
+        <a href="../blog.html">Blog</a>
+      </div>
+      <div class="footer__col">
+        <h4>Work with us</h4>
+        <a href="../book.html">Book a call</a>
+        <a href="../onboarding/">Client Onboarding</a>
+        <a href="../training.html">Free Training</a>
+      </div>
+      <div class="footer__col">
+        <h4>Information</h4>
+        <a href="../privacy-policy.html">Privacy Policy</a>
+        <a href="../terms-and-conditions.html">Terms &amp; Conditions</a>
+        <a href="../sitemap.html">Sitemap</a>
+      </div>
+    </div>
+    <div class="container footer__bottom">
       <span>© Vobet Media 2026</span>
+      <div>
+        <a href="../privacy-policy.html">Privacy Policy</a>
+        <a href="../terms-and-conditions.html">Terms &amp; Conditions</a>
+        <a href="../sitemap.html">Sitemap</a>
+      </div>
     </div>
   </footer>
 

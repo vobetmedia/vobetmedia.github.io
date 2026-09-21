@@ -7,7 +7,8 @@
   <meta name="description" content="Vobet Media is a growth agency built only for service businesses. Meta and Google campaigns, qualifying forms, and follow-up systems that turn enquiries into booked jobs — $100k+ generated in client results." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap" rel="stylesheet" />
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet" />
   <link rel="canonical" href="https://vobetmedia.github.io/" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
   <meta name="author" content="Vobet Media" />
@@ -39,35 +40,9 @@
 </head>
 <body>
 
-  <!-- ══════════ TOP TICKER ══════════ -->
-  <div class="ticker" aria-hidden="true">
-    <div class="ticker__track">
-      <div class="ticker__group">
-        <span>$100K+ GENERATED IN CLIENT RESULTS</span><i>•</i>
-        <span>74 QUALIFIED ROOFING LEADS IN TWO MONTHS</span><i>•</i>
-        <span>33 ROOF INSPECTIONS BOOKED FROM ONE AD ACCOUNT</span><i>•</i>
-        <span>52 LANDSCAPING LEADS AT $17 EACH</span><i>•</i>
-        <span>15 LANDSCAPING JOBS CLOSED — 29% LEAD-TO-CLOSE</span><i>•</i>
-        <span>$19.28 COST PER ROOFING LEAD</span><i>•</i>
-        <span>EVERY ENQUIRY CONTACTED IN UNDER 5 MINUTES</span><i>•</i>
-        <span>EVERY AD APPROVED BY YOU BEFORE IT GOES LIVE</span><i>•</i>
-      </div>
-      <div class="ticker__group">
-        <span>$100K+ GENERATED IN CLIENT RESULTS</span><i>•</i>
-        <span>74 QUALIFIED ROOFING LEADS IN TWO MONTHS</span><i>•</i>
-        <span>33 ROOF INSPECTIONS BOOKED FROM ONE AD ACCOUNT</span><i>•</i>
-        <span>52 LANDSCAPING LEADS AT $17 EACH</span><i>•</i>
-        <span>15 LANDSCAPING JOBS CLOSED — 29% LEAD-TO-CLOSE</span><i>•</i>
-        <span>$19.28 COST PER ROOFING LEAD</span><i>•</i>
-        <span>EVERY ENQUIRY CONTACTED IN UNDER 5 MINUTES</span><i>•</i>
-        <span>EVERY AD APPROVED BY YOU BEFORE IT GOES LIVE</span><i>•</i>
-      </div>
-    </div>
-  </div>
-
   <!-- ══════════ NAV ══════════ -->
   <header class="nav-wrap">
-    <nav class="nav container">
+    <nav class="nav">
       <a href="#" class="nav__logo" aria-label="Vobet Media — home"><span class="nav__logo-mark" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="vobetLogoGrad" x1="8.8" y1="9.2" x2="24.2" y2="5.9" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#ffffff"/><stop offset="55%" stop-color="#ff5fa0"/><stop offset="100%" stop-color="#ec0868"/></linearGradient></defs><path d="M8.8 9.2 15.6 22.4" stroke="url(#vobetLogoGrad)" stroke-width="2.9" stroke-linecap="round"/><path d="M15.6 22.4 24.2 5.9" stroke="url(#vobetLogoGrad)" stroke-width="2.9" stroke-linecap="round"/></svg></span><span class="nav__logo-text"><span class="nav__logo-name">Vobet</span><span class="nav__logo-sub">Media</span></span></a>
       <div class="nav__links" id="navLinks">
         <a href="#how-it-works">How It Works</a>
@@ -76,7 +51,7 @@
         <a href="blog.html">Blog</a>
       </div>
       <div class="nav__cta">
-        <a href="#book" class="btn btn--primary">Book Strategy Call</a>
+        <a href="book.html" class="btn btn--primary">Book a call</a>
       </div>
       <button class="nav__burger" id="navBurger" aria-label="Open menu">
         <span></span><span></span><span></span>
@@ -88,19 +63,17 @@
 
     <!-- ══════════ HERO ══════════ -->
     <section class="hero">
+      <div class="glow" aria-hidden="true"><i></i><i></i><i></i></div>
       <div class="container hero__inner">
-        <div class="hero__kicker reveal">$100K+ GENERATED IN CLIENT RESULTS</div>
-        <h1 class="reveal">
-          <span class="hero__line">We Help Service Businesses</span>
-          <span class="hero__line hero__line--accent">Generate More Leads.</span>
-        </h1>
+        <div class="hero__kicker reveal"><span class="hero__stars" aria-hidden="true">★★★★★</span><span>$100K+ generated in client results</span></div>
+        <h1 class="reveal">We Help Service Businesses Generate More <em>Leads.</em></h1>
         <p class="hero__sub reveal">
           We build and run the ads, the forms, and the follow-up — so your calendar stays full of
           qualified jobs, and you spend your time on the tools, not chasing leads.
         </p>
         <div class="hero__actions reveal">
-          <a href="#book" class="btn btn--primary btn--lg">Book Strategy Call</a>
-          <a href="#how-it-works" class="btn btn--ghost btn--lg">See Our Work</a>
+          <a href="book.html" class="btn btn--primary btn--lg">Book a call</a>
+          <a href="case-studies.html" class="btn btn--ghost btn--lg">See Our Work</a>
         </div>
         <div class="hero__trust reveal">
           <p>Trusted by <strong>service businesses</strong> across the U.S.</p>
@@ -108,41 +81,92 @@
       </div>
     </section>
 
-    <!-- ══════════ HERO PROOF — GENERAL CONTRACTOR (real client trade, kept as-is) ══════════ -->
-    <section class="hero-proof">
-      <div class="container">
-        <div class="hero-proof__head">
-          <div class="eyebrow-pill reveal">RECENT RESULTS · GENERAL CONTRACTOR · 1 MONTH</div>
+    <!-- ══════════ PROOF STRIP — GENERAL CONTRACTOR (real client trade, kept as-is) ══════════ -->
+    <section class="proof-strip">
+      <p class="proof-strip__label reveal">Recent results · General Contractor · 1 month</p>
+      <figure class="proof-strip__shot reveal">
+        <div class="shot-rail">
+          <img src="assets/general-contractor-results.png" alt="Meta Ads Manager reporting for a general contractor showing four ad sets generating 52 leads at costs between $13.42 and $55.91 per lead over one month." width="1547" height="402" />
         </div>
+      </figure>
+      <p class="proof-strip__note reveal">
+        A general contractor's account over a single month: two UGC ad sets carried 48 of the 52
+        leads at $13&ndash;$16 each, while the static and base-form sets were switched off once the
+        gap was obvious.
+      </p>
+    </section>
 
-        <figure class="hero-proof__shot reveal">
-          <div class="hero-proof__shot-head">
-            <span class="hero-proof__shot-title">Meta Ads Manager — 4 ad sets, 1 month</span>
-            <span class="badge badge--green">AD ACCOUNT FIGURES</span>
-          </div>
-          <div class="shot-rail">
-            <img src="assets/general-contractor-results.png" alt="Meta Ads Manager reporting for a general contractor showing four ad sets generating 52 leads at costs between $13.42 and $55.91 per lead over one month." width="1547" height="402" />
-          </div>
-        </figure>
-
-        <p class="proof-note reveal">
-          A general contractor's account over a single month: two UGC ad sets carried 48 of the 52
-          leads at $13&ndash;$16 each, while the static and base-form sets were switched off once the
-          gap was obvious.
-        </p>
-
-        <div class="hero-proof__cta reveal">
-          <a href="case-studies.html" class="btn btn--primary btn--lg">See More Results</a>
-          <a href="book.html" class="btn btn--ghost btn--lg">Book Strategy Call</a>
+    <!-- ══════════ RESULTS ══════════ -->
+    <section class="section" id="results">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow reveal">Results</div>
+          <h2 class="reveal">Two accounts. Both published in <em>full.</em></h2>
+          <p class="reveal">Documented client results, with the ad account reporting attached.</p>
+        </div>
+        <div class="results-grid">
+          <a href="case-study-roofing.html" class="result-card reveal">
+            <img class="result-card__img" src="assets/roofing-campaign-a.png" alt="" aria-hidden="true" />
+            <h3>Roofing Service Business</h3>
+            <div class="result-card__meta">US | 2 months</div>
+            <p>Meta ads plus the Roof-to-Roof Follow-Up System turned enquiries into booked inspections instead of a folder of dead leads.</p>
+            <div class="result-card__stats">
+              <span>74 leads generated</span>
+              <span>33 inspections booked</span>
+              <span>$19.28 cost per lead</span>
+            </div>
+            <span class="result-card__link">Read the case study →</span>
+          </a>
+          <a href="case-study-landscaping.html" class="result-card reveal">
+            <h3>Lawn &amp; Landscaping</h3>
+            <div class="result-card__meta">Texas | 4 ad sets</div>
+            <p>Founder-led and UGC creative with a custom form in place of Meta’s instant forms — fewer leads, and far better ones.</p>
+            <div class="result-card__stats">
+              <span>52 leads at $17 each</span>
+              <span>15 jobs closed</span>
+              <span>$30k+ revenue on $877 spend</span>
+            </div>
+            <span class="result-card__link">Read the case study →</span>
+          </a>
+          <article class="result-card result-card--next reveal">
+            <h3>Your Trade Next</h3>
+            <div class="result-card__meta">HVAC · Remodeling · Solar</div>
+            <p>We publish a case study for every industry we build in, with the ad account reporting attached. Yours could be the next one on this page.</p>
+            <a href="book.html" class="btn btn--ghost">Book a call</a>
+          </article>
+        </div>
+        <div class="results-more reveal">
+          <a href="case-studies.html" class="btn btn--ghost">See all case studies →</a>
         </div>
       </div>
     </section>
 
-    <!-- ══════════ GUARANTEE BAND ══════════ -->
-    <section class="guarantee">
+    <!-- ══════════ SERVICES ══════════ -->
+    <section class="section" id="services">
       <div class="container">
-        <div class="eyebrow reveal">THE VOBET MEDIA GUARANTEE</div>
-        <h2 class="reveal">120 Qualified Estimates in 90 Days,<br class="br-desktop" /> or We Work Free Until You Get Them.</h2>
+        <div class="section-head">
+          <div class="eyebrow reveal">Services</div>
+          <h2 class="reveal">How can we help <em>you?</em></h2>
+          <p class="reveal">Meta and Google campaigns, qualifying forms, and follow-up systems — built for service businesses only.</p>
+        </div>
+        <div class="bento">
+          <div class="bento__card reveal">
+            <span class="card-glow" aria-hidden="true"></span>
+            <h3>Meta Ads</h3>
+            <p>Founder-led and UGC creative in your service area, with every ad approved by you before it goes live.</p>
+          </div>
+          <div class="bento__card reveal">
+            <span class="card-glow card-glow--right" aria-hidden="true"></span>
+            <h3>Google Ads</h3>
+            <p>Search campaigns that catch homeowners at the moment they are already looking for your trade.</p>
+          </div>
+          <div class="bento__card bento__card--wide reveal">
+            <span class="card-glow" aria-hidden="true"></span>
+            <span class="card-glow card-glow--right-b" aria-hidden="true"></span>
+            <h3>Forms &amp; Follow-Up</h3>
+            <p>Custom qualifying forms in place of instant forms, first contact in under five minutes, and follow-up that keeps working the quote instead of writing it off.</p>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -150,161 +174,71 @@
     <section class="section" id="how-it-works">
       <div class="container">
         <div class="section-head">
-          <div class="eyebrow reveal">PROCESS</div>
-          <h2 class="reveal">How a Service Business Campaign Gets Built</h2>
+          <div class="eyebrow reveal">Process</div>
+          <h2 class="reveal">How a service business campaign gets <em>built.</em></h2>
           <p class="reveal">From first audit to a calendar of booked estimates — set up once, then improved every week.</p>
         </div>
-        <div class="stepper reveal" id="stepper">
-          <div class="stepper__tabs" role="tablist">
-            <div class="stepper__line"><i id="stepperProgress"></i></div>
-            <button class="stepper__tab active" data-step="0" role="tab"><span class="stepper__dot">1</span><span class="stepper__label">Audit &amp; Plan</span></button>
-            <button class="stepper__tab" data-step="1" role="tab"><span class="stepper__dot">2</span><span class="stepper__label">Build</span></button>
-            <button class="stepper__tab" data-step="2" role="tab"><span class="stepper__dot">3</span><span class="stepper__label">Launch</span></button>
-            <button class="stepper__tab" data-step="3" role="tab"><span class="stepper__dot">4</span><span class="stepper__label">Nurture</span></button>
-            <button class="stepper__tab" data-step="4" role="tab"><span class="stepper__dot">5</span><span class="stepper__label">Scale</span></button>
+        <div class="process">
+          <div class="process__step reveal">
+            <div class="process__icon" aria-hidden="true"><svg viewBox="0 0 56 56" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="24" cy="24" r="14"/><path d="M34 34l12 12"/><path class="accent" d="M18 24h12M24 18v12"/></svg></div>
+            <h4>Audit &amp; Growth Plan</h4>
+            <p>We dig into your offer, margins, funnel, past campaigns, and data — then map the exact channels, budgets, and system we will build.</p>
+            <ul>
+              <li>Full funnel &amp; data audit</li>
+              <li>Channel opportunity map</li>
+              <li>90-day growth roadmap</li>
+            </ul>
           </div>
-
-          <div class="stepper__panels">
-            <!-- Stage 1 -->
-            <div class="stepper__panel active" data-step="0">
-              <div class="stepper__text">
-                <h3>Audit &amp; Growth Plan</h3>
-                <p>We dig into your offer, margins, funnel, past campaigns, and data — then map the exact channels, budgets, and system we will build.</p>
-                <ul class="stepper__list">
-                  <li>Full funnel &amp; data audit</li>
-                  <li>Channel opportunity map</li>
-                  <li>90-day growth roadmap</li>
-                </ul>
-              </div>
-              <div class="stepper__visual">
-                <div class="mock mock--scan">
-                  <div class="mock__scanline"></div>
-                  <div class="mock__row"><span class="mock__label">Growth Audit</span><span class="badge badge--green badge--live">SCANNING</span></div>
-                  <div class="mock__queue-item audit-item audit-item--1"><strong><span class="audit-check">✓</span> Offer &amp; pricing analysed</strong><small>Margins support paid acquisition at scale.</small></div>
-                  <div class="mock__queue-item audit-item audit-item--2"><strong><span class="audit-check">✓</span> Funnel gaps identified</strong><small>No follow-up after enquiry. Old quotes never chased.</small></div>
-                  <div class="mock__queue-item audit-item audit-item--3"><strong><span class="audit-check">✓</span> Channel plan drafted</strong><small>Meta + Google, custom quote form, instant follow-up.</small></div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Stage 2 -->
-            <div class="stepper__panel" data-step="1">
-              <div class="stepper__text">
-                <h3>Build the Engine</h3>
-                <p>Ad accounts, creative, landing pages, quote forms, follow-up sequences, tracking, and automations — built and connected before launch.</p>
-                <ul class="stepper__list">
-                  <li>Creative &amp; landing pages</li>
-                  <li>Quote forms &amp; follow-up sequences</li>
-                  <li>Tracking &amp; AI automations</li>
-                </ul>
-              </div>
-              <div class="stepper__visual">
-                <div class="mock">
-                  <div class="mock__row"><span class="mock__label">Build Progress</span><span class="badge badge--green badge--live">BUILDING</span></div>
-                  <div class="mock__stat-line"><span>Landing pages</span><strong>100%</strong></div>
-                  <div class="mock__bar mock__bar--loop bar-d1"><i style="--w:100%"></i></div>
-                  <div class="mock__stat-line"><span>Email flows</span><strong>80%</strong></div>
-                  <div class="mock__bar mock__bar--loop bar-d2"><i style="--w:80%"></i></div>
-                  <div class="mock__stat-line"><span>AI automations</span><strong>65%</strong></div>
-                  <div class="mock__bar mock__bar--loop bar-d3"><i style="--w:65%"></i></div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Stage 3 -->
-            <div class="stepper__panel" data-step="2">
-              <div class="stepper__text">
-                <h3>Launch &amp; Generate Demand</h3>
-                <p>Campaigns go live across Meta and Google in your service area. Every enquiry is captured in a way the system can act on within minutes.</p>
-                <ul class="stepper__list">
-                  <li>Campaigns live on every channel</li>
-                  <li>Leads captured &amp; routed instantly</li>
-                  <li>First results within days</li>
-                </ul>
-              </div>
-              <div class="stepper__visual">
-                <div class="mock mock--live">
-                  <span class="lead-chip">+1 new lead</span>
-                  <div class="mock__row"><span class="mock__label">Week 1 — Live</span><span class="badge badge--green badge--live">ACTIVE</span></div>
-                  <div class="mock__dials mock__dials--three">
-                    <div class="mock__dial-item"><strong data-count="48" data-suffix="k">48k</strong><small>impressions</small></div>
-                    <div class="mock__dial-item"><strong data-count="1240">1,240</strong><small>clicks</small></div>
-                    <div class="mock__dial-item mock__dial-item--ping"><strong data-count="52">52</strong><small>leads</small></div>
-                  </div>
-                  <div class="mock__stat-line"><span>Cost per lead</span><strong>$17.00</strong></div>
-                  <div class="mock__bar mock__bar--loop bar-d1"><i style="--w:62%"></i></div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Stage 4 -->
-            <div class="stepper__panel" data-step="3">
-              <div class="stepper__text">
-                <h3>Nurture &amp; Qualify</h3>
-                <p>AI and follow-up sequences respond instantly, qualify the job, and keep every enquiry warm — so your crews only drive out to real work.</p>
-                <ul class="stepper__list">
-                  <li>Instant AI first response</li>
-                  <li>Qualification questions handled</li>
-                  <li>Booked estimates routed to your diary</li>
-                </ul>
-              </div>
-              <div class="stepper__visual">
-                <div class="mock">
-                  <div class="mock__row"><span class="mock__label">AI Assistant</span><span class="badge badge--green badge--cycle">QUALIFIED</span></div>
-                  <div class="chat chat--live">
-                    <div class="chat__slot chat__slot--ai">
-                      <div class="chat__typing typing-1"><span></span><span></span><span></span></div>
-                      <div class="chat__bubble chat__bubble--ai msg-1">Thanks for your enquiry! Quick one — is this a repair or a full replacement?</div>
-                    </div>
-                    <div class="chat__slot chat__slot--lead">
-                      <div class="chat__typing chat__typing--lead typing-2"><span></span><span></span><span></span></div>
-                      <div class="chat__bubble chat__bubble--lead msg-2">Full replacement, hoping to start next month.</div>
-                    </div>
-                    <div class="chat__slot chat__slot--ai">
-                      <div class="chat__typing typing-3"><span></span><span></span><span></span></div>
-                      <div class="chat__bubble chat__bubble--ai msg-3">Perfect — we cover your area. Here are two times for an estimate this week ↓</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Stage 5 -->
-            <div class="stepper__panel" data-step="4">
-              <div class="stepper__text">
-                <h3>Scale What Works</h3>
-                <p>Weekly optimisation across creative, audiences, and copy. Winning angles get more budget; everything else gets cut. You see all of it.</p>
-                <ul class="stepper__list">
-                  <li>Weekly creative testing</li>
-                  <li>Budget moved to winners</li>
-                  <li>Transparent live reporting</li>
-                </ul>
-              </div>
-              <div class="stepper__visual">
-                <div class="mock">
-                  <div class="mock__row"><span class="mock__label">Booked Estimates</span><span class="badge badge--green badge--live">SCALING</span></div>
-                  <div class="chart chart--live">
-                    <div class="chart__col" style="--h:28%"><span>M1</span></div>
-                    <div class="chart__col" style="--h:42%"><span>M2</span></div>
-                    <div class="chart__col" style="--h:58%"><span>M3</span></div>
-                    <div class="chart__col" style="--h:74%"><span>M4</span></div>
-                    <div class="chart__col chart__col--hot" style="--h:92%"><span>M5</span></div>
-                  </div>
-                  <div class="mock__stat-line"><span>Lead-to-close</span><strong class="stat-bob">29% ↑</strong></div>
-                </div>
-              </div>
-            </div>
+          <div class="process__step reveal">
+            <div class="process__icon" aria-hidden="true"><svg viewBox="0 0 56 56" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="12" width="40" height="32" rx="4"/><path d="M8 22h40"/><circle class="accent" cx="16" cy="17" r="1.5"/><path d="M16 30h14M16 36h20"/></svg></div>
+            <h4>Build the Engine</h4>
+            <p>Ad accounts, creative, landing pages, quote forms, follow-up sequences, tracking, and automations — built and connected before launch.</p>
+            <ul>
+              <li>Creative &amp; landing pages</li>
+              <li>Quote forms &amp; follow-up sequences</li>
+              <li>Tracking &amp; AI automations</li>
+            </ul>
+          </div>
+          <div class="process__step reveal">
+            <div class="process__icon" aria-hidden="true"><svg viewBox="0 0 56 56" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M28 8c8 6 12 14 12 24l-6 6H22l-6-6c0-10 4-18 12-24z"/><circle class="accent" cx="28" cy="24" r="4"/><path d="M22 38l-4 10M34 38l4 10"/></svg></div>
+            <h4>Launch &amp; Generate Demand</h4>
+            <p>Campaigns go live across Meta and Google in your service area. Every enquiry is captured in a way the system can act on within minutes.</p>
+            <ul>
+              <li>Campaigns live on every channel</li>
+              <li>Leads captured &amp; routed instantly</li>
+              <li>First results within days</li>
+            </ul>
+          </div>
+          <div class="process__step reveal">
+            <div class="process__icon" aria-hidden="true"><svg viewBox="0 0 56 56" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14h36v22H24l-10 8v-8h-4z"/><path class="accent" d="M20 25h16"/></svg></div>
+            <h4>Nurture &amp; Qualify</h4>
+            <p>AI and follow-up sequences respond instantly, qualify the job, and keep every enquiry warm — so your crews only drive out to real work.</p>
+            <ul>
+              <li>Instant AI first response</li>
+              <li>Qualification questions handled</li>
+              <li>Booked estimates routed to your diary</li>
+            </ul>
+          </div>
+          <div class="process__step reveal">
+            <div class="process__icon" aria-hidden="true"><svg viewBox="0 0 56 56" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 44h40"/><path d="M12 36l10-10 8 6 14-16"/><path class="accent" d="M36 16h8v8"/></svg></div>
+            <h4>Scale What Works</h4>
+            <p>Weekly optimisation across creative, audiences, and copy. Winning angles get more budget; everything else gets cut. You see all of it.</p>
+            <ul>
+              <li>Weekly creative testing</li>
+              <li>Budget moved to winners</li>
+              <li>Transparent live reporting</li>
+            </ul>
           </div>
         </div>
       </div>
     </section>
 
     <!-- ══════════ NUMBERS ══════════ -->
-    <section class="section section--tint">
+    <section class="section">
       <div class="container">
         <div class="section-head">
-          <div class="eyebrow reveal">BUILT FOR TRADES THAT LIVE ON BOOKED WORK</div>
-          <h2 class="reveal">What Our Service Business Campaigns Actually Produce</h2>
+          <div class="eyebrow reveal">Numbers</div>
+          <h2 class="reveal">What our campaigns actually <em>produce.</em></h2>
         </div>
         <div class="numbers">
           <div class="numbers__item reveal"><strong>$100k+</strong><h4>Client Results</h4><p>Generated across the service business accounts we build and run.</p></div>
@@ -317,64 +251,12 @@
       </div>
     </section>
 
-    <!-- ══════════ RESULTS ══════════ -->
-    <section class="section" id="results">
-      <div class="container">
-        <div class="section-head">
-          <div class="eyebrow reveal">DOCUMENTED CLIENT RESULTS</div>
-          <h2 class="reveal">Two Accounts. Both Published in Full.</h2>
-        </div>
-        <div class="results-grid">
-          <a href="case-study-roofing.html" class="result-card reveal">
-            <h3>Roofing Service Business</h3>
-            <div class="result-card__meta">US | 2 months</div>
-            <p>Meta ads plus the Roof-to-Roof Follow-Up System turned enquiries into booked inspections instead of a folder of dead leads.</p>
-            <div class="result-card__stats">
-              <div><strong>74</strong><small>leads generated</small></div>
-              <div><strong>33</strong><small>inspections booked</small></div>
-              <div><strong>$19.28</strong><small>cost per lead</small></div>
-            </div>
-            <span class="result-card__link">Read the case study →</span>
-          </a>
-          <a href="case-study-landscaping.html" class="result-card reveal">
-            <h3>Lawn &amp; Landscaping</h3>
-            <div class="result-card__meta">Texas | 4 ad sets</div>
-            <p>Founder-led and UGC creative with a custom form in place of Meta’s instant forms — fewer leads, and far better ones.</p>
-            <div class="result-card__stats">
-              <div><strong>52</strong><small>leads at $17 each</small></div>
-              <div><strong>15</strong><small>jobs closed</small></div>
-              <div><strong>$30k+</strong><small>revenue on $877 spend</small></div>
-            </div>
-            <span class="result-card__link">Read the case study →</span>
-          </a>
-          <article class="result-card result-card--next reveal">
-            <h3>Your Trade Next</h3>
-            <div class="result-card__meta">HVAC · Remodeling · Solar</div>
-            <p>We publish a case study for every industry we build in, with the ad account reporting attached. Yours could be the next one on this page.</p>
-            <a href="book.html" class="btn btn--ghost">Book a Strategy Call</a>
-          </article>
-        </div>
-        <div class="results-more reveal">
-          <a href="case-studies.html" class="btn btn--ghost">See all case studies →</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- ══════════ GREEN CTA ══════════ -->
-    <section class="cta-band">
-      <div class="container cta-band__inner">
-        <h2 class="reveal">How Many Jobs Are Sitting in Estimates Nobody Chased?</h2>
-        <p class="reveal">Book a call and we will review your ads, your forms, your follow-up speed, and where the booked jobs are leaking out of your business.</p>
-        <a href="#book" class="btn btn--white btn--lg reveal">Book My Free Strategy Call</a>
-      </div>
-    </section>
-
     <!-- ══════════ FAQ ══════════ -->
-    <section class="section section--tint" id="faq">
+    <section class="section" id="faq">
       <div class="container">
         <div class="section-head">
-          <div class="eyebrow reveal">BEFORE YOU BOOK</div>
-          <h2 class="reveal">The Questions We Get Asked Most</h2>
+          <div class="eyebrow reveal">FAQ</div>
+          <h2 class="reveal">The questions we get asked <em>most.</em></h2>
         </div>
         <div class="faq">
           <details class="faq__item reveal">
@@ -405,39 +287,13 @@
       </div>
     </section>
 
-    <!-- ══════════ BOOKING ══════════ -->
-    <section class="section" id="book">
-      <div class="container">
-        <div class="booking">
-          <div class="booking__info reveal">
-            <div class="eyebrow">BOOK A CALL</div>
-            <h2>Book Your Free Service Business Strategy Call</h2>
-            <p>
-              Choose a time that suits you. On the call we will review your ads, your enquiry forms, your
-              follow-up process, and whether we are the right fit for your trade.
-            </p>
-            <ul class="booking__list">
-              <li>Audit of your current ads and enquiry forms</li>
-              <li>Where booked jobs are leaking out of your process</li>
-              <li>A clear 90-day plan for booked work — yours to keep</li>
-              <li>No pressure, no obligation</li>
-            </ul>
-          </div>
-          <div class="booking__card reveal">
-            <div class="mock__row"><span class="mock__label">Strategy Call — 30 min</span><span class="badge badge--green">FREE</span></div>
-            <div class="booking__cal">
-              <div class="booking__cal-head">August 2026</div>
-              <div class="booking__cal-grid">
-                <span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span><span>S</span>
-                <span class="dim">27</span><span class="dim">28</span><span class="dim">29</span><span class="dim">30</span><span class="dim">31</span><span>1</span><span>2</span>
-                <span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span>
-                <span class="sel">10</span><span>11</span><span class="sel">12</span><span>13</span><span class="sel">14</span><span>15</span><span>16</span>
-              </div>
-            </div>
-            <a href="mailto:hello@vobetmedia.com?subject=Strategy%20Call%20Request" class="btn btn--primary btn--block">Book Strategy Call</a>
-            <small class="booking__note">Prefer email? hello@vobetmedia.com</small>
-          </div>
-        </div>
+    <!-- ══════════ CTA ══════════ -->
+    <section class="cta-band" id="book">
+      <div class="cta-band__inner reveal">
+        <div class="glow" aria-hidden="true"><i></i><i></i><i></i></div>
+        <h2>How many jobs are sitting in estimates <em>nobody chased?</em></h2>
+        <p>Book a call and we will review your ads, your forms, your follow-up speed, and where the booked jobs are leaking out of your business.</p>
+        <a href="book.html" class="btn btn--primary btn--lg">Book a call</a>
       </div>
     </section>
 
@@ -447,7 +303,7 @@
   <footer class="footer">
     <div class="container footer__grid">
       <div class="footer__brand">
-        <a href="#" class="nav__logo" aria-label="Vobet Media — home"><span class="nav__logo-mark" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="vobetLogoGrad" x1="8.8" y1="9.2" x2="24.2" y2="5.9" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#ffffff"/><stop offset="55%" stop-color="#ff5fa0"/><stop offset="100%" stop-color="#ec0868"/></linearGradient></defs><path d="M8.8 9.2 15.6 22.4" stroke="url(#vobetLogoGrad)" stroke-width="2.9" stroke-linecap="round"/><path d="M15.6 22.4 24.2 5.9" stroke="url(#vobetLogoGrad)" stroke-width="2.9" stroke-linecap="round"/></svg></span><span class="nav__logo-text"><span class="nav__logo-name">Vobet</span><span class="nav__logo-sub">Media</span></span></a>
+        <a href="#" class="nav__logo" aria-label="Vobet Media — home"><span class="nav__logo-mark" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.8 9.2 15.6 22.4" stroke="url(#vobetLogoGrad)" stroke-width="2.9" stroke-linecap="round"/><path d="M15.6 22.4 24.2 5.9" stroke="url(#vobetLogoGrad)" stroke-width="2.9" stroke-linecap="round"/></svg></span><span class="nav__logo-text"><span class="nav__logo-name">Vobet</span><span class="nav__logo-sub">Media</span></span></a>
         <p>Meta and Google campaigns, qualifying forms, and follow-up systems — built for service businesses only.</p>
         <p class="footer__contact">
           <a href="mailto:hello@vobetmedia.com">hello@vobetmedia.com</a><br />
@@ -455,24 +311,23 @@
         </p>
       </div>
       <div class="footer__col">
-        <h4>Services</h4>
-        <a href="#book">Email Marketing</a>
-        <a href="#book">Performance Marketing</a>
-        <a href="#book">Lead Generation</a>
-        <a href="#book">AI Systems &amp; Automation</a>
-      </div>
-      <div class="footer__col">
-        <h4>Company</h4>
+        <h4>Pages</h4>
         <a href="#how-it-works">How It Works</a>
         <a href="#results">Results</a>
-        <a href="#book">Book a Strategy Call</a>
+        <a href="case-studies.html">Case Studies</a>
+        <a href="blog.html">Blog</a>
       </div>
       <div class="footer__col">
-        <h4>Resources</h4>
-        <a href="blog.html">Blog</a>
-        <a href="case-studies.html">Case Studies</a>
+        <h4>Work with us</h4>
+        <a href="book.html">Book a call</a>
+        <a href="onboarding/">Client Onboarding</a>
+        <a href="training.html">Free Training</a>
+      </div>
+      <div class="footer__col">
+        <h4>Information</h4>
         <a href="privacy-policy.html">Privacy Policy</a>
         <a href="terms-and-conditions.html">Terms &amp; Conditions</a>
+        <a href="sitemap.html">Sitemap</a>
       </div>
     </div>
     <div class="container footer__bottom">
