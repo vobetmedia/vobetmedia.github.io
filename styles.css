@@ -2316,7 +2316,7 @@ a.blog-card:hover {
 
 /* ── Video placeholder (homepage, under the hero) ── */
 
-.video { padding: 0 24px 64px; }
+.video { padding: 64px 24px 64px; }
 .video__frame {
   position: relative;
   max-width: 1000px;
@@ -2359,7 +2359,7 @@ a.blog-card:hover {
 .video__caption { color: var(--muted); font-size: 16px; letter-spacing: -0.02em; }
 
 @media (max-width: 560px) {
-  .video { padding: 0 20px 48px; }
+  .video { padding: 40px 20px 48px; }
   .video__play { width: 64px; height: 64px; }
   .video__play svg { width: 26px; height: 26px; }
 }
