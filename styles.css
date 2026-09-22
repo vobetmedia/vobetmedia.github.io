@@ -2313,3 +2313,53 @@ a.blog-card:hover {
   .post-hero h1,
   .vsl-hero h1 { font-size: 34px; line-height: 38px; letter-spacing: -1.36px; }
 }
+
+/* ── Video placeholder (homepage, under the hero) ── */
+
+.video { padding: 0 24px 64px; }
+.video__frame {
+  position: relative;
+  max-width: 1000px;
+  aspect-ratio: 16 / 9;
+  margin: 0 auto;
+  border-radius: var(--radius-card);
+  background:
+    radial-gradient(60% 70% at 50% 0%, rgba(255, 69, 51, 0.18), transparent 70%),
+    var(--card);
+  box-shadow: var(--ring);
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: 20px;
+}
+.video__frame iframe,
+.video__frame video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.video__play {
+  display: grid;
+  place-items: center;
+  width: 84px;
+  height: 84px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 0 0 12px rgba(255, 69, 51, 0.14);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+.video__play:hover { background: var(--accent-2); transform: scale(1.04); }
+.video__play svg { width: 34px; height: 34px; fill: currentColor; margin-left: 4px; }
+.video__caption { color: var(--muted); font-size: 16px; letter-spacing: -0.02em; }
+
+@media (max-width: 560px) {
+  .video { padding: 0 20px 48px; }
+  .video__play { width: 64px; height: 64px; }
+  .video__play svg { width: 26px; height: 26px; }
+}
