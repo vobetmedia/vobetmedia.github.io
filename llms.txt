@@ -1,0 +1,30 @@
+# Vobet Media
+
+> Growth agency for service businesses (roofing, landscaping, HVAC, plumbing, electrical, remodeling, solar). Meta and Google campaigns, custom qualifying forms, and automated follow-up that turns enquiries into booked estimates. Guarantee: 120 qualified estimates in 90 days, or we keep working free until you get them.
+
+Site: https://vobetmedia.github.io/ · Contact: hello@vobetmedia.com
+
+## Key facts
+- Works only with service businesses; ads run in the client's own Meta/Google accounts.
+- Every enquiry is contacted in under 5 minutes during active hours; quotes are followed up automatically.
+- Published results come from real Meta Ads Manager screenshots, not summaries.
+- Landscaping (Texas): 52 leads at ~$17 each on $877 of spend, 15 jobs closed, 29% lead-to-close.
+- Roofing (US): 74 leads, 33 inspections booked, $19.28 cost per lead, over two months.
+
+## Pages
+- [Home](https://vobetmedia.github.io/): what we do, results, process, FAQ
+- [Case studies](https://vobetmedia.github.io/case-studies.html): [Roofing](https://vobetmedia.github.io/case-study-roofing.html), [Landscaping](https://vobetmedia.github.io/case-study-landscaping.html)
+- [Book a call](https://vobetmedia.github.io/book.html)
+- [Client onboarding](https://vobetmedia.github.io/onboarding/)
+- [Terms & Conditions](https://vobetmedia.github.io/terms-and-conditions.html) (deliverables and the 90-day guarantee), [Privacy Policy](https://vobetmedia.github.io/privacy-policy.html)
+
+## Blog
+- [Why Vobet Media Only Works With Service Businesses](https://vobetmedia.github.io/blog/why-we-only-work-with-contractors.html): Vobet Media only works with service businesses — roofers, landscapers, HVAC, plumbing, electrical, remodeling and solar — because one kind of client lets us build one system that we can guarantee: ads, a qualifying form, and follow-up that turns enquiries into booked estimates.
+- [The Vobet Media Story](https://vobetmedia.github.io/blog/the-vobet-media-story.html): Vobet Media was built to own the part of lead generation most vendors ignore — the speed of the first reply and the follow-up after the quote. Ads run in the client's own account, results are published as real ad-account screenshots, and the guarantee is 120 qualified estimates in 90 days or we work free.
+- ["The Leads Were Junk" Is Almost Never About the Leads](https://vobetmedia.github.io/blog/cheap-leads-are-costing-you-jobs.html): When a service business says "the leads were junk", the cause is almost always one of three things: an instant form that collected anyone curious, a reply that came hours late, or a quote that was sent once and never chased. Fix those and the same traffic source starts producing booked jobs — on our landscaping account, 52 leads became 15 closed jobs.
+- [Pay-Per-Lead vs. Pay-Per-Booked-Job: What Service Businesses Actually Pay For](https://vobetmedia.github.io/blog/pay-per-lead-vs-pay-per-booked-job.html): Pay-per-lead prices only the first step of a job. To compare offers, divide the lead price by the share that book and the share that close: a $25 lead at 10% booked and 30% closed costs $833 per job, while a $17 qualified lead at 29% lead-to-close costs about $58 per job. Ask whether leads are exclusive, what counts as billable, and whether the ad account is yours.
+- [How to Qualify Pay-Per-Lead Enquiries Before You Drive Out](https://vobetmedia.github.io/blog/how-to-qualify-pay-per-lead-enquiries.html): Most "bad" pay-per-lead enquiries are unqualified rather than fake. Three form questions — what is the job, when do you want it done, and are you the owner — plus a first reply within five minutes remove most of the enquiries that were never going to become work, before a truck rolls.
+- [Why Service Businesses Should Own Their Lead Engine Instead of Renting One](https://vobetmedia.github.io/blog/building-your-own-pay-per-lead-engine.html): Buying leads from a marketplace stops the moment you stop paying and leaves nothing behind. Running the same ads in your own Meta and Google accounts builds account history, audience data and brand — assets you keep — and cost per lead trends down as the account learns instead of staying flat at the marketplace price.
+
+## Sitemap
+https://vobetmedia.github.io/sitemap.xml

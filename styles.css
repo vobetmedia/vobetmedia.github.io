@@ -2389,3 +2389,54 @@ a.blog-card:hover {
   border-radius: 12px;
   margin-bottom: 18px;
 }
+
+/* ── Blog post: one consistent column ──────── */
+/* Header, lead image, body and CTA all share the same 760px measure,
+   left-aligned, so nothing jumps between widths down the page. */
+
+.post-hero .container,
+.post-figure,
+.post-body,
+.post-cta { max-width: 760px; margin-left: auto; margin-right: auto; }
+.post-hero .container { padding-left: 24px; padding-right: 24px; }
+.post-hero h1 { max-width: none; font-size: 52px; line-height: 58px; letter-spacing: -2.08px; }
+.post-hero p.post-hero__dek { max-width: none; }
+.post-figure { margin: 0 auto 2.5rem; }
+.post-body h2 { font-size: 30px; line-height: 36px; letter-spacing: -0.9px; margin-top: 2.4rem; }
+.post-body p, .post-body li { font-size: 18px; line-height: 1.7; }
+.post-body blockquote { font-size: 22px; line-height: 1.45; }
+.post-body ul { padding-left: 1.3rem; }
+.post-cta { margin-top: 3rem; }
+
+@media (max-width: 809px) {
+  .post-hero h1 { font-size: 36px; line-height: 42px; letter-spacing: -1.44px; }
+  .post-body h2 { font-size: 26px; line-height: 32px; }
+  .post-body p, .post-body li { font-size: 17px; }
+}
+
+/* ── Blog post: answer-first summary + FAQ ─── */
+
+.post-summary {
+  margin: 0 0 2rem;
+  padding: 22px 24px;
+  border-radius: 16px;
+  background: var(--card);
+  box-shadow: var(--ring);
+  border-left: 3px solid var(--accent);
+}
+.post-summary strong {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 700;
+}
+.post-summary p { margin: 0; font-size: 17px; line-height: 1.6; color: var(--ink); }
+
+.post-faq { margin-top: 3rem; }
+.post-faq h2 { margin-bottom: 1rem; }
+.post-faq .faq__item { margin-bottom: 10px; }
+.post-faq .faq__item summary { font-size: 17px; line-height: 24px; }
+.post-faq .faq__item p { font-size: 16px; margin-top: 10px; }
