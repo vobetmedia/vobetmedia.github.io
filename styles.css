@@ -2363,3 +2363,29 @@ a.blog-card:hover {
   .video__play { width: 64px; height: 64px; }
   .video__play svg { width: 26px; height: 26px; }
 }
+
+/* ── Blog post figures ─────────────────────── */
+
+.post-figure {
+  margin: 0 0 2rem;
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  background: var(--card);
+}
+.post-figure img { width: 100%; height: auto; aspect-ratio: 7 / 4; object-fit: cover; }
+.post-figure figcaption {
+  padding: 12px 18px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+.post-body .post-figure { margin: 2rem 0; }
+
+.blog-card__img {
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 18px;
+}
