@@ -17,7 +17,7 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-Sitemap: https://vobetmedia.github.io/sitemap.xml
+Sitemap: https://vobetmedia.com/sitemap.xml
 
 # machine-readable site summary for answer engines
-# https://vobetmedia.github.io/llms.txt
+# https://vobetmedia.com/llms.txt
