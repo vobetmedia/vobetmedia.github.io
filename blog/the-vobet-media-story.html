@@ -5,10 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>The Vobet Media Story</title>
   <meta name="description" content="How a frustration with generic lead-gen agencies turned into a growth system built specifically for service businesses — and why the 90-day guarantee exists." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap" rel="stylesheet" />
-  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet" />
   <link rel="canonical" href="https://vobetmedia.com/blog/the-vobet-media-story.html" />
   <meta name="robots" content="index, follow" />
   <meta name="author" content="Vobet Media" />
@@ -45,7 +41,9 @@
   <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png" />
 
   <script>document.documentElement.classList.add('js');</script>
-  <link rel="stylesheet" href="../styles.css?v=20260925a" />
+  <link rel="preload" as="font" type="font/woff2" href="../assets/fonts/satoshi-500.woff2" crossorigin />
+  <link rel="preload" as="font" type="font/woff2" href="../assets/fonts/instrument-serif-italic.woff2" crossorigin />
+  <link rel="stylesheet" href="../styles.css?v=20260925b" />
 
   <script type="application/ld+json">
 {
@@ -196,7 +194,7 @@
     <section class="section" style="padding-top:0">
       <div class="container">
         <figure class="post-figure reveal">
-          <img src="../assets/blog-story.jpg" alt="Vobet Media — 120 qualified estimates in 90 days, or we work free" width="1400" height="800" />
+          <img fetchpriority="high" decoding="async" src="../assets/blog-story.webp" alt="Vobet Media — 120 qualified estimates in 90 days, or we work free" width="1400" height="800" />
           <figcaption>The whole model rests on a promise we can be accountable for.</figcaption>
         </figure>
         <article class="post-body">

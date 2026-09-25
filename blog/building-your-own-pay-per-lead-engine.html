@@ -5,10 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Why Service Businesses Should Own Their Lead Engine Instead of Renting One</title>
   <meta name="description" content="Pay-per-lead marketplaces keep the ad account, the audience data, and the reviews. Here is what changes when the campaigns run under your own name." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap" rel="stylesheet" />
-  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet" />
   <link rel="canonical" href="https://vobetmedia.com/blog/building-your-own-pay-per-lead-engine.html" />
   <meta name="robots" content="index, follow" />
   <meta name="author" content="Vobet Media" />
@@ -46,7 +42,9 @@
   <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png" />
 
   <script>document.documentElement.classList.add('js');</script>
-  <link rel="stylesheet" href="../styles.css?v=20260925a" />
+  <link rel="preload" as="font" type="font/woff2" href="../assets/fonts/satoshi-500.woff2" crossorigin />
+  <link rel="preload" as="font" type="font/woff2" href="../assets/fonts/instrument-serif-italic.woff2" crossorigin />
+  <link rel="stylesheet" href="../styles.css?v=20260925b" />
 
   <script type="application/ld+json">
 {
@@ -196,7 +194,7 @@
     <section class="section" style="padding-top:0">
       <div class="container">
         <figure class="post-figure reveal">
-          <img src="../assets/blog-own-engine.jpg" alt="Cost per lead in your own ad account trending down against a flat marketplace price" width="1400" height="800" />
+          <img fetchpriority="high" decoding="async" src="../assets/blog-own-engine.webp" alt="Cost per lead in your own ad account trending down against a flat marketplace price" width="1400" height="800" />
           <figcaption>Every month in your own account is an asset you keep.</figcaption>
         </figure>
         <article class="post-body">

@@ -5,10 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Why Vobet Media Only Works With Service Businesses</title>
   <meta name="description" content="Most agencies serve anyone with a budget. Vobet Media turned down that model on purpose — the case for specializing in service businesses instead of taking on every industry." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap" rel="stylesheet" />
-  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet" />
   <link rel="canonical" href="https://vobetmedia.com/blog/why-we-only-work-with-contractors.html" />
   <meta name="robots" content="index, follow" />
   <meta name="author" content="Vobet Media" />
@@ -46,7 +42,9 @@
   <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png" />
 
   <script>document.documentElement.classList.add('js');</script>
-  <link rel="stylesheet" href="../styles.css?v=20260925a" />
+  <link rel="preload" as="font" type="font/woff2" href="../assets/fonts/satoshi-500.woff2" crossorigin />
+  <link rel="preload" as="font" type="font/woff2" href="../assets/fonts/instrument-serif-italic.woff2" crossorigin />
+  <link rel="stylesheet" href="../styles.css?v=20260925b" />
 
   <script type="application/ld+json">
 {
@@ -197,7 +195,7 @@
     <section class="section" style="padding-top:0">
       <div class="container">
         <figure class="post-figure reveal">
-          <img src="../assets/blog-one-client.jpg" alt="Built for booked work — roofing, landscaping, HVAC, plumbing, electrical, remodeling, solar" width="1400" height="800" />
+          <img fetchpriority="high" decoding="async" src="../assets/blog-one-client.webp" alt="Built for booked work — roofing, landscaping, HVAC, plumbing, electrical, remodeling, solar" width="1400" height="800" />
           <figcaption>One kind of client, one kind of problem — booked work.</figcaption>
         </figure>
         <article class="post-body">
