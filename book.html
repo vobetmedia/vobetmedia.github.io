@@ -36,6 +36,13 @@
   <link rel="preload" as="font" type="font/woff2" href="assets/fonts/satoshi-500.woff2" crossorigin />
   <link rel="preload" as="font" type="font/woff2" href="assets/fonts/instrument-serif-italic.woff2" crossorigin />
   <link rel="stylesheet" href="styles.css?v=20260925b" />
+  <style>
+    .quiz.quiz--wide { max-width: 1040px; }
+    .cal-embed { width: 100%; min-height: 620px; overflow: auto; border-radius: 16px; }
+    .cal-embed .cal__hint { padding: 40px 0; text-align: center; }
+    .cal-embed__fallback { margin-top: 12px; font-size: 13px; opacity: 0.7; text-align: center; }
+    .cal-embed__fallback a { text-decoration: underline; }
+  </style>
 </head>
 <body class="vsl-page">
 
@@ -122,15 +129,12 @@
           <!-- Calendar step -->
           <div class="quiz__step" data-step="5">
             <h3 id="calTitle">Pick a time for your free strategy call</h3>
-            <!-- To use Calendly instead: delete .cal below and paste your
-                 Calendly inline embed snippet here. -->
-            <div class="cal">
-              <div class="cal__dates" id="calDates"></div>
-              <div class="cal__slots" id="calSlots">
-                <p class="cal__hint">← Pick a date first</p>
-              </div>
+            <!-- Live Cal.com calendar (cal.com/vobetmedia/strategycall), loaded by vsl.js
+                 with the visitor's name, email and CRM lead id. -->
+            <div class="cal-embed" id="calEmbed" aria-live="polite">
+              <p class="cal__hint">Loading available times…</p>
             </div>
-            <button class="btn btn--primary btn--lg btn--block" id="calConfirm" disabled>Confirm Booking</button>
+            <p class="cal-embed__fallback">Calendar not loading? <a href="https://cal.com/vobetmedia/strategycall" target="_blank" rel="noopener">Book on Cal.com →</a></p>
           </div>
 
           <!-- Success -->
@@ -173,8 +177,8 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
-  <script src="vsl.js"></script>
+  <script src="script.js?v=20260927"></script>
+  <script src="vsl.js?v=20260927"></script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

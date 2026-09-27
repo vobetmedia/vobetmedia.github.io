@@ -1,3 +1,15 @@
+// Ad attribution: remember where the visitor came from (first touch, this tab)
+// so book.html can pass it to the CRM even after a training.html → book.html hop.
+try {
+  const params = new URLSearchParams(location.search);
+  const keys = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term', 'fbclid'];
+  if (keys.some((k) => params.get(k)) && !sessionStorage.getItem('vm_attr')) {
+    const attr = { landing_page: location.pathname };
+    keys.forEach((k) => { if (params.get(k)) attr[k] = params.get(k).slice(0, 200); });
+    sessionStorage.setItem('vm_attr', JSON.stringify(attr));
+  }
+} catch (e) { /* storage blocked — attribution is best effort */ }
+
 // Mobile nav
 const burger = document.getElementById('navBurger');
 const navLinks = document.getElementById('navLinks');
