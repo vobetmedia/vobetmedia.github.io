@@ -454,10 +454,18 @@ p { color: var(--muted); }
   letter-spacing: 2px;
 }
 
-.hero h1 { max-width: 900px; }
+.hero h1 { max-width: 1100px; }
+/* serif word sits on its own line, larger than the sans text */
+.hero h1 em {
+  display: block;
+  font-size: 1.6em;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+}
+.hero__sub em { font-style: italic; }
 
 .hero__sub {
-  max-width: 640px;
+  max-width: 900px;
   font-size: 20px;
   line-height: 30px;
   letter-spacing: -0.4px;
