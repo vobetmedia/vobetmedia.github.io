@@ -2484,3 +2484,38 @@ a.blog-card:hover {
 .post-faq .faq__item { margin-bottom: 10px; }
 .post-faq .faq__item summary { font-size: 17px; line-height: 24px; }
 .post-faq .faq__item p { font-size: 16px; margin-top: 10px; }
+
+/* ── Article extras: key facts, about, related ── */
+.post-facts {
+  margin: 0 0 2rem;
+  padding: 20px 24px;
+  background: var(--card);
+  box-shadow: var(--ring);
+  border-radius: 16px;
+}
+.post-facts strong {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.post-facts ul { margin: 0; padding-left: 20px; }
+.post-facts li { margin: 6px 0; font-size: 16px; line-height: 1.55; color: var(--ink); }
+.post-about,
+.post-related {
+  margin-top: 3rem;
+}
+.post-about {
+  padding: 24px;
+  background: var(--card);
+  box-shadow: var(--ring);
+  border-radius: 16px;
+}
+.post-about h2,
+.post-related h2 { margin-bottom: 0.75rem; font-size: 24px; line-height: 30px; letter-spacing: -0.5px; }
+.post-about p { margin: 0; font-size: 15.5px; line-height: 1.65; }
+.post-related ul { margin: 0; padding-left: 20px; }
+.post-related li { margin: 8px 0; }
+.post-related a { text-decoration: underline; text-underline-offset: 3px; }
