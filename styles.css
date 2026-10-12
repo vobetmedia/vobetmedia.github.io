@@ -2550,3 +2550,16 @@ a.blog-card:hover {
   .founder__photo { max-width: 420px; margin: 0 auto; }
   .founder__body h2 { font-size: 36px; line-height: 42px; letter-spacing: -1.44px; }
 }
+
+/* ── Mobile hero alignment ────────────────── */
+@media (max-width: 560px) {
+  .hero__inner { gap: 20px; }
+  .hero__kicker { gap: 8px; font-size: 13px; white-space: nowrap; }
+  .hero__stars { font-size: 11px; letter-spacing: 1.5px; }
+  .hero h1 { font-size: 38px; line-height: 42px; letter-spacing: -1.5px; }
+  .hero h1 em { font-size: 1.5em; line-height: 0.95; margin: 2px 0; }
+  .hero__sub { max-width: 330px; font-size: 16px; line-height: 24px; letter-spacing: -0.2px; text-wrap: balance; }
+  .hero__actions { flex-direction: column; flex-wrap: nowrap; align-items: stretch; width: 100%; max-width: 340px; gap: 10px; }
+  .hero__actions .btn { width: 100%; min-height: 52px; }
+  .hero__trust { font-size: 13px; }
+}
