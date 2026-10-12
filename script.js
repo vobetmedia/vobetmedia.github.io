@@ -1,3 +1,12 @@
+// Home page: always land at the very top on load (no restored/anchored scroll offset on mobile)
+if (document.querySelector('.hero') && !location.hash) {
+  try { history.scrollRestoration = 'manual'; } catch (e) { /* ignore */ }
+  const toTop = () => window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+  toTop();
+  window.addEventListener('load', toTop);
+  window.addEventListener('pageshow', (e) => { if (e.persisted) toTop(); });
+}
+
 // Ad attribution: remember where the visitor came from (first touch, this tab)
 // so book.html can pass it to the CRM even after a training.html → book.html hop.
 try {
