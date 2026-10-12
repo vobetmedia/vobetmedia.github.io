@@ -2556,10 +2556,10 @@ a.blog-card:hover {
   .hero__inner { gap: 20px; }
   .hero__kicker { gap: 8px; font-size: 13px; white-space: nowrap; }
   .hero__stars { font-size: 11px; letter-spacing: 1.5px; }
-  .hero h1 { font-size: 46px; line-height: 50px; letter-spacing: -1.84px; }
+  .hero h1 { font-size: 50px; line-height: 54px; letter-spacing: -2px; }
   .hero h1 em { font-size: 1.5em; line-height: 0.95; margin: 2px 0; }
   .hero__sub { max-width: 330px; font-size: 16px; line-height: 24px; letter-spacing: -0.2px; text-wrap: balance; }
-  .hero__actions { flex-direction: column; flex-wrap: nowrap; align-items: stretch; width: 100%; max-width: 330px; gap: 10px; margin-top: 14px; }
+  .hero__actions { flex-direction: column; flex-wrap: nowrap; align-items: stretch; width: 100%; max-width: 330px; gap: 10px; margin-top: 28px; }
   .hero__actions .btn { width: 100%; min-height: 52px; }
   .hero__trust { font-size: 13px; }
 }
