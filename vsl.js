@@ -150,7 +150,6 @@
   const form = document.getElementById('quizForm');
   const submitBtn = form.querySelector('button[type="submit"]');
   form.addEventListener('submit', (e) => {
-    if (window.vobetTrack) window.vobetTrack('form_submit', { form_id: form.id || 'quiz_form' });
     e.preventDefault();
     answers.name = document.getElementById('qName').value.trim();
     answers.email = document.getElementById('qEmail').value.trim();
@@ -190,7 +189,6 @@
         document.getElementById('successSummary').textContent = (start
           ? start.toLocaleString(undefined, { weekday: 'long', day: 'numeric', month: 'long', hour: 'numeric', minute: '2-digit' }) + ' — '
           : '') + 'confirmation on its way to ' + answers.email + '.';
-        if (window.vobetTrack) window.vobetTrack('booking_confirmed', { source: source });
         goTo(SUCCESS_STEP);
       },
     });
