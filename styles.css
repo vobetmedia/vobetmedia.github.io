@@ -2817,3 +2817,12 @@ h1 em, h2 em, h3 em, .h-serif {
 .proof-grid--services em { font-size: 15px; line-height: 21px; }
 @media (max-width: 560px) { .proof-grid--services strong { font-size: 18px; line-height: 24px; } .proof-grid--services em { font-size: 13px; line-height: 18px; } }
 .founder__stats strong { white-space: nowrap; }
+
+/* Hero left column: minimal checklist */
+.hero-points { display: grid; grid-template-columns: 1fr 1fr; gap: 18px 32px; }
+.hero-points li { display: flex; align-items: center; gap: 12px; font-size: 20px; line-height: 26px; font-weight: 500; color: #fff; letter-spacing: -0.3px; }
+.hero-points li::before { content: ''; flex: none; width: 10px; height: 10px; background: var(--accent); }
+@media (max-width: 560px) {
+  .hero-points { grid-template-columns: 1fr; gap: 14px; }
+  .hero-points li { font-size: 17px; line-height: 22px; }
+}
