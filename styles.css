@@ -2734,3 +2734,21 @@ h1 em, h2 em, h3 em, .h-serif {
 .founder__body p a { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
 @media (max-width: 560px) { .founder__stats { gap: 24px; flex-wrap: wrap; } }
 .cs-shots > * { min-width: 0; }
+
+/* Mobile header + hero, NP Digital style: bigger logo and burger, left-aligned copy, one CTA */
+@media (max-width: 720px) {
+  .nav, .vsl-header__inner { padding: 20px 24px; }
+  .nav__logo-mark { width: 36px; height: 36px; }
+  .nav__logo-text { font-size: 26px; gap: 6px; }
+  .nav__burger { gap: 7px; padding: 4px 0; }
+  .nav__burger span { width: 34px; height: 3px; border-radius: 0; }
+
+  .hero { padding: 28px 0 56px; text-align: left; }
+  .hero__inner { align-items: flex-start; gap: 24px; padding: 0 24px; }
+  .hero h1 { font-size: 40px; line-height: 46px; letter-spacing: -1.4px; text-wrap: pretty; }
+  .hero__sub { max-width: none; font-size: 17px; line-height: 27px; color: #fff; font-weight: 400; text-wrap: pretty; }
+  .hero__actions { flex-direction: row; justify-content: flex-start; align-items: flex-start; width: auto; max-width: none; margin-top: 4px; }
+  .hero__actions .btn { width: auto; min-height: 0; padding: 18px 30px; font-size: 18px; }
+  .hero__actions .btn--outline { display: none; }
+  .hero__grid { padding: 0 24px; margin-top: 56px; }
+}
