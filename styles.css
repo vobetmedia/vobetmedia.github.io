@@ -2719,3 +2719,18 @@ h1 em, h2 em, h3 em, .h-serif {
 .vsl-header__cta { border-radius: 3px; }
 .quiz__progress-track i { background: var(--accent); }
 @media (max-width: 560px) { .vsl-header__inner { padding: 14px 20px; } }
+
+/* case studies built from ad-account screenshots */
+.cs-pillars--three { grid-template-columns: repeat(3, 1fr); margin-top: 32px; }
+.ad-table tbody th { text-align: left; font-size: 14.5px; font-weight: 500; letter-spacing: 0; color: var(--ink); }
+.ad-table tbody tr:last-child th, .ad-table tbody tr:last-child td { font-weight: 700; }
+.cs-card__shot { margin: 0 0 18px; border-radius: 6px; overflow: hidden; background: #fff; aspect-ratio: 16 / 6; }
+.cs-card__shot img { width: 100%; height: 100%; object-fit: cover; object-position: left top; }
+.result-card--shot { justify-content: flex-start; text-align: left; min-height: 0; padding: 20px; }
+.result-card--shot::before { display: none; }
+.result-card--shot .result-card__stats { justify-content: flex-start; }
+.result-card--shot .result-card__stats span { background: rgba(255, 255, 255, 0.06); }
+@media (max-width: 900px) { .cs-pillars--three { grid-template-columns: 1fr; } }
+.founder__body p a { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
+@media (max-width: 560px) { .founder__stats { gap: 24px; flex-wrap: wrap; } }
+.cs-shots > * { min-width: 0; }
