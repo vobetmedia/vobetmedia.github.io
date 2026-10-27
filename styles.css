@@ -888,9 +888,7 @@ p { color: var(--muted); }
    Only the hero + nav animate on load; nothing animates on scroll.
    Elements are held invisible only once JS has confirmed it will run. */
 
-.js [data-appear],
-.js [data-appear-words] { opacity: 0.001; }
-.js .appear-word { opacity: 0.001; filter: blur(10px); transform: translateY(10px); }
+/* page-load appear animation removed; elements render immediately */
 .appear-word { display: inline-block; will-change: transform, filter, opacity; }
 
 @media (prefers-reduced-motion: reduce) {
@@ -2752,3 +2750,59 @@ h1 em, h2 em, h3 em, .h-serif {
   .hero__actions .btn--outline { display: none; }
   .hero__grid { padding: 0 24px; margin-top: 56px; }
 }
+
+/* ── Header + hero matched to npdigital.com (desktop and mobile) ── */
+:root { --nav-h: 104px; }
+.nav-wrap { background: transparent; backdrop-filter: none; -webkit-backdrop-filter: none; transition: background-color 0.2s ease; }
+.nav-wrap.is-scrolled { background: rgba(0, 0, 0, 0.92); }
+.nav { max-width: 1800px; height: var(--nav-h); padding: 0 76px; gap: 0; }
+.nav__logo-mark { width: 40px; height: 40px; }
+.nav__logo-text { font-size: 26px; }
+.nav__links { gap: 0; margin-right: 26px; }
+.nav__links a { padding: 8px 16px; font-size: 19px; font-weight: 400; letter-spacing: -0.2px; }
+.nav__cta { gap: 32px; }
+.nav__cta .btn { height: 56px; padding: 0 30px; font-size: 18px; font-weight: 400; letter-spacing: -0.2px; }
+.nav__cta .btn--outline { box-shadow: inset 0 0 0 1px #ff5f27; }
+
+.hero { margin-top: calc(-1 * var(--nav-h)); padding-top: calc(var(--nav-h) + 92px); }
+.hero {
+  background:
+    radial-gradient(ellipse 45% 55% at 0% 0%, rgba(150, 60, 20, 0.35), rgba(150, 60, 20, 0) 70%),
+    radial-gradient(ellipse 70% 80% at 100% 100%, rgba(255, 80, 25, 0.38), rgba(255, 80, 25, 0) 65%),
+    #000;
+}
+.hero__inner { max-width: 1400px; gap: 0; }
+.hero h1 { max-width: 1300px; font-size: 72px; line-height: 82px; letter-spacing: -1.6px; font-weight: 700; -webkit-text-stroke: 1.2px currentColor; }
+.hl, .hero h1 em { background-size: 100% 0.15em; background-position: 0 88%; padding-bottom: 0; }
+.hero__sub { max-width: 1200px; margin-top: 30px; font-size: 22px; line-height: 32px; font-weight: 400; letter-spacing: -0.3px; color: #fff; }
+.hero__actions { margin-top: 28px; }
+.hero__actions .btn { height: 60px; padding: 0 37px; font-size: 20px; font-weight: 400; letter-spacing: -0.2px; }
+
+@media (max-width: 1199px) {
+  :root { --nav-h: 88px; }
+  .nav { padding: 0 32px; }
+  .nav__links a { font-size: 16px; padding: 8px 10px; }
+  .nav__cta { gap: 14px; }
+  .nav__cta .btn { height: 48px; padding: 0 20px; font-size: 16px; }
+  .hero h1 { font-size: 58px; line-height: 66px; }
+}
+@media (max-width: 960px) {
+  :root { --nav-h: 96px; }
+}
+@media (max-width: 720px) {
+  :root { --nav-h: 104px; }
+  .nav, .vsl-header__inner { height: var(--nav-h); padding: 0 27px; }
+  .nav__logo-mark { width: 46px; height: 46px; }
+  .nav__logo-text { font-size: 30px; gap: 7px; }
+  .nav__burger { gap: 8px; padding: 6px 0; }
+  .nav__burger span { width: 32px; height: 3px; border-radius: 0; }
+  .hero { padding-top: calc(var(--nav-h) + 18px); padding-bottom: 56px; }
+  .hero__inner { padding: 0 27px; }
+  .hero h1 { font-size: 34px; line-height: 40px; letter-spacing: -0.6px; -webkit-text-stroke: 0.6px currentColor; }
+  .hero__sub { margin-top: 22px; font-size: 16px; line-height: 24px; }
+  .hero__actions { margin-top: 26px; }
+  .hero__actions .btn { height: 46px; padding: 0 28px; font-size: 16px; }
+  .hero__grid { padding: 0 27px; margin-top: 64px; }
+}
+@media (min-width: 1440px) { .hero__grid { max-width: 1780px; padding: 0 76px; gap: 80px; } }
+@media (max-width: 720px) { .hero { padding-top: calc(var(--nav-h) + 36px); } }
