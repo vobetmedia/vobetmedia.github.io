@@ -2806,3 +2806,10 @@ h1 em, h2 em, h3 em, .h-serif {
 }
 @media (min-width: 1440px) { .hero__grid { max-width: 1780px; padding: 0 76px; gap: 80px; } }
 @media (max-width: 720px) { .hero { padding-top: calc(var(--nav-h) + 36px); } }
+/* mobile logo: keep it modest */
+@media (max-width: 720px) {
+  :root { --nav-h: 80px; }
+  .nav__logo-mark { width: 30px; height: 30px; }
+  .nav__logo-text { font-size: 22px; gap: 5px; }
+  .nav__burger span { width: 28px; }
+}
