@@ -143,3 +143,15 @@ if (urlInputs.length) {
     play(el, (p) => ({ opacity: 0.001 + p * 0.999 }), { k: 100, c: 100, duration: 5260, delay: 1000 });
   });
 })();
+
+// Home page intake card: remember the ticked services, then hand off to the booking flow
+// (book.html), which sends them to the CRM with the rest of the lead.
+const intakeForm = document.getElementById('intakeForm');
+if (intakeForm) {
+  intakeForm.addEventListener('submit', (ev) => {
+    ev.preventDefault();
+    const services = [...intakeForm.querySelectorAll('input[name="services"]:checked')].map((i) => i.value);
+    try { sessionStorage.setItem('vm_services', JSON.stringify(services)); } catch (e) { /* best effort */ }
+    location.href = 'book.html';
+  });
+}

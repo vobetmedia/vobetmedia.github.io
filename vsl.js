@@ -68,7 +68,7 @@
   const QUESTION_STEPS = 5; // steps 0-4 are questions/contact
   const CAL_STEP = 5, SUCCESS_STEP = 6, DQ_STEP = 7;
 
-  const show = (i) => {
+  const show = (i, scroll = true) => {
     steps.forEach((s, idx) => s.classList.toggle('active', idx === i));
     quiz.classList.toggle('quiz--wide', i === CAL_STEP);
     current = i;
@@ -85,7 +85,7 @@
     }
 
     backBtn.hidden = !(i >= 1 && i !== SUCCESS_STEP);
-    quiz.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    if (scroll) quiz.scrollIntoView({ behavior: 'smooth', block: 'center' });
   };
 
   const goTo = (i) => {
@@ -121,6 +121,15 @@
     try { return JSON.parse(sessionStorage.getItem('vm_attr') || '{}') || {}; } catch (e) { return {}; }
   };
 
+  const pickedServices = () => {
+    try { const v = JSON.parse(sessionStorage.getItem('vm_services') || '[]'); return Array.isArray(v) ? v : []; } catch (e) { return []; }
+  };
+  const servicesLine = document.getElementById('qServices');
+  if (servicesLine && pickedServices().length) {
+    servicesLine.textContent = 'Interested in: ' + pickedServices().join(', ');
+    servicesLine.hidden = false;
+  }
+
   const sendLead = (attr) => {
     const quizAnswers = {};
     Object.keys(answers).forEach((k) => {
@@ -130,6 +139,7 @@
       name: answers.name,
       email: answers.email,
       website: answers.website,
+      services_interested: pickedServices().join(', '),
       form_name: 'Website quiz',
       page_url: location.href,
     });
@@ -194,5 +204,5 @@
     });
   }
 
-  show(0);
+  show(0, false);
 })();

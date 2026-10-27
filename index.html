@@ -51,6 +51,7 @@
         <a href="blog.html">Articles</a>
       </div>
       <div class="nav__cta">
+        <a href="case-studies.html" class="btn btn--outline">See our work</a>
         <a href="book.html" class="btn btn--primary">Book a call</a>
       </div>
       <button class="nav__burger" id="navBurger" aria-label="Open menu">
@@ -63,21 +64,42 @@
 
     <!-- ══════════ HERO ══════════ -->
     <section class="hero">
-      <div class="glow" aria-hidden="true" data-appear="glow"><i></i><i></i><i></i></div>
       <div class="container hero__inner">
-        <div class="hero__kicker reveal" data-appear="fade"><span class="hero__stars" aria-hidden="true">★★★★★</span><span>$100K+ generated in client results</span></div>
-        <h1 class="reveal" data-appear-words>Ads and systems that <em>scale</em> businesses.</h1>
-        <p class="hero__sub reveal" data-appear-words>
-          Meta ads, email, and the AI-first solutions that run it all.<br>
-          Built for businesses that work <em>on</em> the business, not in it.
-        </p>
+        <h1 class="reveal" data-appear-words>Ads and systems that <span class="hl">scale</span> businesses.</h1>
+        <p class="hero__sub reveal" data-appear-words>Meta ads, email, and the AI-first solutions that run it all. Built for businesses that work on the business, not in it.</p>
         <div class="hero__actions reveal" data-appear="fade">
-          <a href="book.html" class="btn btn--primary btn--lg">Book a call</a>
-          <a href="case-studies.html" class="btn btn--ghost btn--lg">See Our Work</a>
+          <a href="book.html" class="btn btn--primary btn--lg" data-cta="hero_work_with_us">Work with us</a>
         </div>
-        <div class="hero__trust reveal" data-appear="fade">
-          <p>Trusted by <strong>businesses</strong> across the US, UK and AU</p>
+      </div>
+      <div class="container hero__grid reveal" data-appear="fade">
+        <div class="hero__proof">
+          <ul class="proof-grid">
+          <li class="proof-tile"><strong>74</strong><span>leads generated</span><em>Roofing · 2 months</em></li>
+          <li class="proof-tile"><strong>33</strong><span>appointments scheduled</span><em>Roofing · 2 months</em></li>
+          <li class="proof-tile"><strong>$16.86</strong><span>average cost per lead</span><em>Landscaping · $876.94 spend</em></li>
+          <li class="proof-tile"><strong>15</strong><span>jobs closed</span><em>Landscaping · 28.8% of leads</em></li>
+          <li class="proof-tile"><strong>120</strong><span>qualified estimates</span><em>Guaranteed in 90 days, or we keep working at no extra management fee</em></li>
+          <li class="proof-tile"><strong>US · UK · AU</strong><span>markets we serve</span><em>Businesses only</em></li>
+          </ul>
+          <p class="hero__proof-note">Figures from our <a href="case-studies.html">published case studies</a>, with the ad account reporting attached.</p>
         </div>
+        <form class="intake" id="intakeForm" novalidate>
+          <h2>How can we <span class="hl">help you grow</span>?</h2>
+          <fieldset class="intake__grid">
+            <legend class="sr-only">What do you need help with?</legend>
+            <label class="intake__opt"><input type="checkbox" name="services" value="Meta Ads" /><span>Meta Ads</span></label>
+            <label class="intake__opt"><input type="checkbox" name="services" value="Email &amp; SMS" /><span>Email &amp; SMS</span></label>
+            <label class="intake__opt"><input type="checkbox" name="services" value="AI-first solutions" /><span>AI-first solutions</span></label>
+            <label class="intake__opt"><input type="checkbox" name="services" value="Google Ads" /><span>Google Ads</span></label>
+            <label class="intake__opt"><input type="checkbox" name="services" value="Creative / UGC" /><span>Creative / UGC</span></label>
+            <label class="intake__opt"><input type="checkbox" name="services" value="Follow-up automation" /><span>Follow-up automation</span></label>
+            <label class="intake__opt"><input type="checkbox" name="services" value="Website" /><span>Website</span></label>
+            <label class="intake__opt"><input type="checkbox" name="services" value="Analytics" /><span>Analytics</span></label>
+            <label class="intake__opt"><input type="checkbox" name="services" value="Other" /><span>Other</span></label>
+          </fieldset>
+          <button type="submit" class="btn btn--primary btn--lg intake__submit">Get started</button>
+          <p class="intake__note">Tick what fits, then a minute of questions and you pick a time. No obligation.</p>
+        </form>
       </div>
     </section>
 
