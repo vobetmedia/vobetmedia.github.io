@@ -2826,3 +2826,5 @@ h1 em, h2 em, h3 em, .h-serif {
   .hero-points { grid-template-columns: 1fr; gap: 14px; }
   .hero-points li { font-size: 17px; line-height: 22px; }
 }
+/* intake: four options, 2 x 2 */
+.intake__grid { grid-template-columns: 1fr 1fr; }
