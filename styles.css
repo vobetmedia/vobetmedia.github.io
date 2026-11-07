@@ -426,7 +426,7 @@ p { color: var(--muted); }
   background: var(--bg);
 }
 
-.hero .glow { bottom: -400px; }
+.hero .glow { bottom: -310px; }
 
 .hero__inner {
   position: relative;
@@ -2584,3 +2584,7 @@ a.blog-card:hover {
 
 .quiz__services { margin: 0 0 16px; font-size: 14px; color: var(--muted); }
 @media (max-width: 560px) { .hero__sub br { display: none; } }
+@media (max-width: 560px) { .hero .glow { bottom: -330px; } }
+/* soft fade at the bottom of the hero so the glow has no hard edge */
+.hero::after { content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: 180px; background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #000); pointer-events: none; }
+.hero__trust p { text-shadow: 0 1px 12px rgba(0, 0, 0, 0.6); }
