@@ -2828,3 +2828,48 @@ h1 em, h2 em, h3 em, .h-serif {
 }
 /* intake: four options, 2 x 2 */
 .intake__grid { grid-template-columns: 1fr 1fr; }
+
+/* ── Hero restored to the "Ads and systems that *scale* brands." layout ── */
+.hero--scale {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  background: #000;
+  padding-top: calc(var(--nav-h) + 72px);
+  padding-bottom: clamp(120px, 18vh, 220px);
+}
+.hero--scale .glow { bottom: -420px; opacity: 0.9; }
+.hero--scale .hero__inner { position: relative; z-index: 1; align-items: center; gap: 28px; max-width: 1200px; padding: 0 24px; }
+.hero--scale .hero__kicker { padding: 10px 18px; border-radius: 999px; font-size: 13px; letter-spacing: 0.22em; text-transform: uppercase; color: rgba(255, 255, 255, 0.8); box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.18); background: rgba(255, 255, 255, 0.03); }
+.hero--scale h1 { max-width: 1200px; font-size: 96px; line-height: 100px; letter-spacing: -3.6px; font-weight: 700; -webkit-text-stroke: 0; text-align: center; }
+.hero--scale h1 em {
+  display: block;
+  margin: 4px 0 2px;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.6em;
+  line-height: 0.95;
+  letter-spacing: -0.01em;
+  color: var(--accent);
+  background: none;
+  padding: 0;
+}
+.hero--scale .hero__sub { max-width: 1000px; margin-top: 0; font-size: 22px; line-height: 34px; letter-spacing: -0.2px; color: rgba(255, 255, 255, 0.72); text-align: center; }
+.hero--scale .hero__sub em { font-family: inherit; font-style: italic; color: #fff; background: none; }
+.hero--scale .hero__actions { justify-content: center; margin-top: 8px; }
+.hero--scale .hero__actions .btn { height: auto; padding: 18px 40px; font-size: 18px; }
+
+@media (max-width: 1199px) {
+  .hero--scale h1 { font-size: 72px; line-height: 78px; letter-spacing: -2.6px; }
+}
+@media (max-width: 720px) {
+  .hero--scale { padding-top: calc(var(--nav-h) + 32px); padding-bottom: 110px; text-align: center; }
+  .hero--scale .hero__inner { align-items: center; gap: 20px; padding: 0 20px; }
+  .hero--scale .hero__kicker { font-size: 10.5px; letter-spacing: 0.18em; padding: 8px 14px; }
+  .hero--scale h1 { font-size: 46px; line-height: 50px; letter-spacing: -1.8px; -webkit-text-stroke: 0; }
+  .hero--scale h1 em { font-size: 1.5em; margin: 2px 0; }
+  .hero--scale .hero__sub { max-width: 340px; font-size: 16px; line-height: 24px; font-weight: 400; text-wrap: balance; }
+  .hero--scale .hero__actions { width: 100%; max-width: 340px; margin-top: 12px; }
+  .hero--scale .hero__actions .btn { width: 100%; padding: 16px 24px; font-size: 17px; }
+}
