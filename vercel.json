@@ -84,6 +84,31 @@
       "source": "/case-study-landscaping.html",
       "destination": "/case-studies.html",
       "permanent": true
+    },
+    {
+      "source": "/blog/meta-ads-for-car-detailers.html",
+      "destination": "/blog/meta-ads-for-d2c-brands.html",
+      "permanent": true
+    },
+    {
+      "source": "/blog/why-we-only-work-with-contractors.html",
+      "destination": "/blog/why-we-work-with-d2c-and-b2b-brands.html",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-qualify-pay-per-lead-enquiries.html",
+      "destination": "/blog/how-to-qualify-b2b-leads.html",
+      "permanent": true
+    },
+    {
+      "source": "/blog/pay-per-lead-vs-pay-per-booked-job.html",
+      "destination": "/blog/email-and-sms-flows-for-d2c-brands.html",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-the-90-day-guarantee-covers.html",
+      "destination": "/blog/ai-automation-for-d2c-and-b2b-brands.html",
+      "permanent": true
     }
   ]
 }

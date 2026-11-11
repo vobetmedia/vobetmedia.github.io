@@ -1,48 +1,49 @@
 # Vobet Media
 
-> Growth agency for brands (roofing, landscaping, HVAC, plumbing, electrical, remodeling, solar, car detailing, pressure washing, pest control, cleaning). Meta and Google campaigns, custom qualifying forms, and automated follow-up that turns enquiries into booked estimates. Guarantee: 120 qualified estimates in 90 days, or we keep working free until you get them.
+> Growth partner for D2C and B2B brands. Meta and Google ads and email and SMS for D2C and ecommerce brands, lead generation and outbound for B2B companies, and AI automation for both. Campaigns run in the client's own accounts.
 
 Site: https://vobetmedia.com/ · Contact: hello@vobetmedia.com
 
 ## Key facts
 - Founder: Kartik Sharma, 17, four years in digital marketing; helps brands grow online through AI, sales and marketing.
-- Industries served: roofing, landscaping, HVAC, plumbing, electrical, remodeling, windows, solar, concrete, fencing, painting, car detailing, pressure washing, pest control, cleaning services, pool care.
-- Works only with brands; ads run in the client's own Meta/Google accounts.
-- Every enquiry is contacted in under 5 minutes during active hours; quotes are followed up automatically.
+- Who it works with: D2C / ecommerce brands and B2B companies.
+- Services: Meta and Google ads (D2C), email and SMS flows and campaigns (D2C), B2B lead generation and outbound, AI automation (lead qualification, follow-up, CRM workflows, reporting).
+- Ads, pixels, email lists and CRM data stay in the client's own accounts.
 - Published results come from real Meta Ads Manager screenshots, not summaries.
 - Western Roof Tiling: 133 Meta lead-form leads on $3,350.79 of spend (blended $25.19; best campaign 102 leads at $21.44).
 - Harper Tree Services: 55 leads at £3.68 each on £202.32 of spend, Sep 10 – Oct 22, 2026.
 - A Pair of Hands: 126 leads at $29.24 each on $3,684.28 of spend, May 7 – Sep 6, 2026.
 
 ## Pages
-- [Home](https://vobetmedia.com/): what we do, results, process, FAQ
+- [Home](https://vobetmedia.com/): services, results, process, founder, FAQ
 - [Case studies](https://vobetmedia.com/case-studies.html): [Western Roof Tiling](https://vobetmedia.com/case-study-western-roof-tiling.html), [Harper Tree Services](https://vobetmedia.com/case-study-harper-tree-services.html), [A Pair of Hands](https://vobetmedia.com/case-study-a-pair-of-hands.html)
+- [Articles](https://vobetmedia.com/blog.html)
+- [Free training](https://vobetmedia.com/training.html)
 - [Book a call](https://vobetmedia.com/book.html)
 - [Client onboarding](https://vobetmedia.com/onboarding/)
-- [Terms & Conditions](https://vobetmedia.com/terms-and-conditions.html) (deliverables and the 90-day guarantee), [Privacy Policy](https://vobetmedia.com/privacy-policy.html)
+- [Terms & Conditions](https://vobetmedia.com/terms-and-conditions.html), [Privacy Policy](https://vobetmedia.com/privacy-policy.html)
 
 ## Articles
-- [How a Vobet Media Campaign Gets Built, Step by Step](https://vobetmedia.com/blog/how-a-vobet-media-campaign-gets-built.html): A Vobet Media campaign has four parts: an audit of your offer and service area, Meta and Google ads that run in your own accounts, a custom qualifying form in place of instant forms, and an automated follow-up system that replies in minutes. Each part exists to turn a click into a booked, qualified estimate.
-- [Meta Ads for Car Detailers: How to Fill Your Calendar With Better Jobs](https://vobetmedia.com/blog/meta-ads-for-car-detailers.html): Car detailers can use Meta ads to book higher-value work — ceramic coating, paint correction and full details — by leading with a specific offer, using a qualifying form to filter bargain hunters, and replying to enquiries fast. Vobet Media builds that system for car detailing and auto care brands.
-- [Why We Run Your Ads in Your Own Ad Account](https://vobetmedia.com/blog/why-we-run-ads-in-your-own-ad-account.html): Vobet Media runs every campaign inside the client's own Meta and Google ad accounts. The business owns the data, audiences and history, can see spend in real time, and keeps everything if the engagement ends. Ad budget stays in the client's account; the agency charges a separate management fee.
-- [What the 90-Day Guarantee Actually Covers (and What It Doesn't)](https://vobetmedia.com/blog/what-the-90-day-guarantee-covers.html): The Vobet Media guarantee is 120 qualified estimates within 90 days, or we keep working at no charge until you get them. It covers booked, qualified estimates — the part we control — not whether a customer signs the contract afterwards. The full conditions are set out in the terms.
-- [How the Vobet Media Follow-Up System Turns Enquiries Into Booked Jobs](https://vobetmedia.com/blog/how-our-follow-up-system-works.html): The Vobet Media follow-up system replies to new enquiries within minutes, books estimates where it can, and keeps chasing quotes that have gone quiet. It exists because the speed of the first reply and the discipline of the follow-up decide a large share of whether a lead becomes a booked job.
-- [Why Vobet Media Only Works With Brands](https://vobetmedia.com/blog/why-we-only-work-with-contractors.html): Vobet Media only works with brands — roofers, landscapers, HVAC, plumbing, electrical, remodeling, solar, car detailers, pressure washers, pest control and cleaning crews — because one kind of client lets us build one system that we can guarantee: ads, a qualifying form, and follow-up that turns enquiries into booked estimates.
-- [The Vobet Media Story](https://vobetmedia.com/blog/the-vobet-media-story.html): Vobet Media was built to own the part of lead generation most vendors ignore — the speed of the first reply and the follow-up after the quote. Ads run in the client's own account, results are published as real ad-account screenshots, and the guarantee is 120 qualified estimates in 90 days or we work free.
-- ["The Leads Were Junk" Is Almost Never About the Leads](https://vobetmedia.com/blog/cheap-leads-are-costing-you-jobs.html): When a business says "the leads were junk", the cause is almost always one of three things: an instant form that collected anyone curious, a reply that came hours late, or a quote that was sent once and never chased. Fix those and the same traffic source starts producing booked jobs — on our landscaping account, 52 leads became 15 closed jobs.
-- [Pay-Per-Lead vs. Pay-Per-Booked-Job: What Brands Actually Pay For](https://vobetmedia.com/blog/pay-per-lead-vs-pay-per-booked-job.html): Pay-per-lead prices only the first step of a job. To compare offers, divide the lead price by the share that book and the share that close: a $25 lead at 10% booked and 30% closed costs $833 per job, while a $17 qualified lead at 29% lead-to-close costs about $58 per job. Ask whether leads are exclusive, what counts as billable, and whether the ad account is yours.
-- [How to Qualify Pay-Per-Lead Enquiries Before You Drive Out](https://vobetmedia.com/blog/how-to-qualify-pay-per-lead-enquiries.html): Most "bad" pay-per-lead enquiries are unqualified rather than fake. Three form questions — what is the job, when do you want it done, and are you the owner — plus a first reply within five minutes remove most of the enquiries that were never going to become work, before a truck rolls.
-- [Why Brands Should Own Their Lead Engine Instead of Renting One](https://vobetmedia.com/blog/building-your-own-pay-per-lead-engine.html): Buying leads from a marketplace stops the moment you stop paying and leaves nothing behind. Running the same ads in your own Meta and Google accounts builds account history, audience data and brand — assets you keep — and cost per lead trends down as the account learns instead of staying flat at the marketplace price.
+- [Meta Ads for D2C Brands: How to Turn Ad Spend Into Profitable Customers](https://vobetmedia.com/blog/meta-ads-for-d2c-brands.html): Profitable Meta ads for D2C brands come from a simple structure: broad prospecting that lets the algorithm find buyers, a steady flow of new creative, retargeting for people who showed interest, and email and SMS that turn first orders into repeat purchases. Success is judged on profit and customer value, not clicks.
+- [Email and SMS Flows Every D2C Brand Should Have](https://vobetmedia.com/blog/email-and-sms-flows-for-d2c-brands.html): Every D2C brand should run five core email and SMS flows: welcome, browse abandonment, cart abandonment, post-purchase and win-back. They run automatically, reach people you have already paid to acquire, and turn one-time buyers into repeat customers, which makes paid acquisition far more profitable.
+- [How to Qualify B2B Leads Before They Reach Your Sales Team](https://vobetmedia.com/blog/how-to-qualify-b2b-leads.html): B2B lead qualification works best before the sales call: a short form asks about company size, role, need and timeline, AI follow-up replies within minutes and asks the remaining questions, and qualified leads are routed straight to a booked meeting while the rest go into a nurture sequence.
+- [AI Automation for D2C and B2B Brands: What It Should Actually Do](https://vobetmedia.com/blog/ai-automation-for-d2c-and-b2b-brands.html): For D2C and B2B brands, AI automation is most useful for repetitive, time-sensitive work: replying to and qualifying leads, answering common customer questions, updating the CRM, routing leads to the right person and compiling reports. People stay in charge of strategy, creative approval and closing.
+- [How AI Follow-Up Turns Leads and Carts Into Revenue](https://vobetmedia.com/blog/how-our-follow-up-system-works.html): Vobet Media’s follow-up system uses AI, email and SMS to respond to new B2B leads within minutes, qualify them and book meetings, and to bring D2C shoppers back with abandoned cart, post-purchase and win-back messages. It exists because slow or missing follow-up wastes ad spend before a conversation has even started.
+- [Why Vobet Media Works With D2C and B2B Brands](https://vobetmedia.com/blog/why-we-work-with-d2c-and-b2b-brands.html): Vobet Media works with D2C ecommerce brands and B2B companies because both need the same thing: paid acquisition that pays back, follow-up that never lets a buyer go cold, and data they own. The channels differ (email and SMS for D2C, lead generation and outbound for B2B), but the system and the discipline are the same.
+- [How a Vobet Media Growth System Gets Built, Step by Step](https://vobetmedia.com/blog/how-a-vobet-media-campaign-gets-built.html): A Vobet Media build starts with an audit of the offer, funnel and data, then sets up creative, landing pages, tracking, email and SMS flows (for D2C) or lead forms and outbound (for B2B), plus AI follow-up. Campaigns launch once every piece is connected, and the system is improved every week after that.
+- [Why We Run Your Ads in Your Own Ad Account](https://vobetmedia.com/blog/why-we-run-ads-in-your-own-ad-account.html): Vobet Media runs every campaign in the client’s own Meta, Google and LinkedIn ad accounts, connected to the client’s own store, email platform and CRM. The client owns the data, the pixel history and the creative, can check results at any time, and keeps everything if the engagement ends.
+- [Why Brands Should Own Their Growth Engine Instead of Renting One](https://vobetmedia.com/blog/building-your-own-pay-per-lead-engine.html): Buying leads, relying on marketplaces or paying an agency that keeps the data is renting growth: it stops when the payments stop. Owning the engine (ad accounts, audiences, email and SMS lists, CRM data and automation) means every month of work makes the next month cheaper and more predictable.
+- [Cheap Leads and Cheap Clicks Are Costing You Customers](https://vobetmedia.com/blog/cheap-leads-are-costing-you-jobs.html): When a brand says the traffic or leads were junk, the cause is usually one of three things: the campaign optimised for cheap clicks or leads instead of buyers, the landing page or form let anyone through, or nobody followed up quickly. Fixing those gaps changes results without changing the traffic source.
+- [The Vobet Media Story](https://vobetmedia.com/blog/the-vobet-media-story.html): Vobet Media is a growth partner for D2C and B2B brands, founded by Kartik Sharma. It joins up paid ads, email and SMS, B2B lead generation and AI automation into one system, runs everything in accounts the client owns, and shows results as unedited ad-account screenshots.
 
 ## Answers to common questions
-- **What does Vobet Media do?** Builds and runs Meta and Google ad campaigns, custom qualifying forms, and automated follow-up for brands, so enquiries become booked estimates.
-- **Who is it for?** Brands only — roofing, landscaping, HVAC, plumbing, electrical, remodeling, windows, solar, concrete, fencing, painting, car detailing, pressure washing, pest control, cleaning services, pool care and more.
-- **What is the guarantee?** 120 qualified estimates in 90 days, or Vobet Media keeps working free until the client gets them.
+- **What does Vobet Media do?** Builds and runs Meta and Google ads, email and SMS, B2B lead generation and outbound, and AI automation for D2C and B2B brands.
+- **Who is it for?** D2C and ecommerce brands, and B2B companies.
+- **Does it work with Shopify?** Yes, plus other store platforms, the main email and SMS tools and common B2B CRMs.
 - **What does it cost?** A monthly management fee plus ad budget; the budget stays in the client's own ad account. The figure is set on the first call.
-- **How fast are leads contacted?** Under five minutes during active hours.
-- **Who owns the ad account?** The client. Campaigns run in their own Meta and Google accounts, so the account history and audience data stay with them.
-- **How long until results?** The build takes about two weeks; campaigns usually go live in week two or three and first enquiries land within days of launch.
-- **Are results verifiable?** Yes — case studies publish the actual Meta Ads Manager screenshots, not summaries.
+- **Who owns the ad account?** The client. Campaigns run in their own accounts, so the data and history stay with them.
+- **How long until results?** The build takes about two weeks; campaigns usually go live in week two or three and first data arrives within days of launch.
+- **Are results verifiable?** Yes. Case studies publish the actual Meta Ads Manager screenshots, not summaries.
 
 ## Sitemap
 https://vobetmedia.com/sitemap.xml

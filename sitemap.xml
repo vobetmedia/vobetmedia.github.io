@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://vobetmedia.com/</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -14,7 +14,7 @@
   </url>
   <url>
     <loc>https://vobetmedia.com/blog.html</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -37,50 +37,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vobetmedia.com/blog/why-we-only-work-with-contractors.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://vobetmedia.com/blog/the-vobet-media-story.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://vobetmedia.com/blog/cheap-leads-are-costing-you-jobs.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://vobetmedia.com/blog/pay-per-lead-vs-pay-per-booked-job.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://vobetmedia.com/blog/how-to-qualify-pay-per-lead-enquiries.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://vobetmedia.com/blog/building-your-own-pay-per-lead-engine.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://vobetmedia.com/training.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://vobetmedia.com/book.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -92,7 +56,7 @@
   </url>
   <url>
     <loc>https://vobetmedia.com/terms-and-conditions.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -103,33 +67,69 @@
     <priority>0.2</priority>
   </url>
   <url>
-    <loc>https://vobetmedia.com/blog/how-a-vobet-media-campaign-gets-built.html</loc>
-    <lastmod>2026-10-11</lastmod>
+    <loc>https://vobetmedia.com/blog/meta-ads-for-d2c-brands.html</loc>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vobetmedia.com/blog/meta-ads-for-car-detailers.html</loc>
-    <lastmod>2026-10-11</lastmod>
+    <loc>https://vobetmedia.com/blog/email-and-sms-flows-for-d2c-brands.html</loc>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vobetmedia.com/blog/why-we-run-ads-in-your-own-ad-account.html</loc>
-    <lastmod>2026-10-11</lastmod>
+    <loc>https://vobetmedia.com/blog/how-to-qualify-b2b-leads.html</loc>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vobetmedia.com/blog/what-the-90-day-guarantee-covers.html</loc>
-    <lastmod>2026-10-11</lastmod>
+    <loc>https://vobetmedia.com/blog/ai-automation-for-d2c-and-b2b-brands.html</loc>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://vobetmedia.com/blog/how-our-follow-up-system-works.html</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vobetmedia.com/blog/why-we-work-with-d2c-and-b2b-brands.html</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vobetmedia.com/blog/how-a-vobet-media-campaign-gets-built.html</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vobetmedia.com/blog/why-we-run-ads-in-your-own-ad-account.html</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vobetmedia.com/blog/building-your-own-pay-per-lead-engine.html</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vobetmedia.com/blog/cheap-leads-are-costing-you-jobs.html</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vobetmedia.com/blog/the-vobet-media-story.html</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>
