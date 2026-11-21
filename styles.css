@@ -2595,3 +2595,16 @@ a.blog-card:hover {
   .hero__actions { flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center; width: auto; max-width: none; gap: 10px; margin-top: 24px; }
   .hero__actions .btn { width: auto; min-height: 0; padding: 14px 20px; font-size: 15px; }
 }
+
+/* Phone hero rhythm: even spacing, lighter CTAs */
+@media (max-width: 560px) {
+  .hero { padding-top: clamp(36px, 7vh, 72px); padding-bottom: 110px; }
+  .hero__inner { gap: 0; }
+  .hero__kicker { margin-bottom: 18px; }
+  .hero h1 { font-size: 46px; line-height: 50px; letter-spacing: -1.8px; }
+  .hero h1 em { margin: 0; }
+  .hero__sub { margin-top: 18px; max-width: 320px; font-size: 15.5px; line-height: 23px; }
+  .hero__actions { margin-top: 26px; gap: 8px; }
+  .hero__actions .btn { padding: 11px 18px; font-size: 14px; line-height: 20px; border-radius: 10px; }
+  .hero__trust { margin-top: 16px; font-size: 12.5px; }
+}
