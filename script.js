@@ -75,3 +75,52 @@ if (navWrap) {
   onScroll();
   window.addEventListener('scroll', onScroll, { passive: true });
 }
+
+// Article visuals: animate once when scrolled into view; count-up numbers; calculator.
+(() => {
+  const vizzes = document.querySelectorAll('.viz');
+  if (!vizzes.length) return;
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const countUp = (el) => {
+    const target = parseFloat(el.dataset.count);
+    const dec = (el.dataset.count.split('.')[1] || '').length;
+    const pre = el.dataset.prefix || '', suf = el.dataset.suffix || '';
+    const fmt = (v) => pre + v.toLocaleString('en-US', { minimumFractionDigits: dec, maximumFractionDigits: dec }) + suf;
+    if (reduce) { el.textContent = fmt(target); return; }
+    const t0 = performance.now(), dur = 1200;
+    const step = (t) => {
+      const p = Math.min((t - t0) / dur, 1), e = 1 - Math.pow(1 - p, 3);
+      el.textContent = fmt(target * e);
+      if (p < 1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  };
+  const show = (v) => { v.classList.add('is-in'); v.querySelectorAll('[data-count]').forEach(countUp); };
+  if (reduce || !('IntersectionObserver' in window)) { vizzes.forEach(show); }
+  else {
+    const io = new IntersectionObserver((entries) => entries.forEach((en) => {
+      if (en.isIntersecting) { show(en.target); io.unobserve(en.target); }
+    }), { threshold: 0.3 });
+    vizzes.forEach((v) => io.observe(v));
+  }
+  // 3D cards tilt toward the pointer
+  document.querySelectorAll('.viz-card').forEach((c) => {
+    c.addEventListener('pointermove', (e) => {
+      const r = c.getBoundingClientRect();
+      const x = (e.clientX - r.left) / r.width - 0.5, y = (e.clientY - r.top) / r.height - 0.5;
+      c.style.transform = `rotateY(${x * 16}deg) rotateX(${-y * 12}deg) translateZ(12px)`;
+    });
+    c.addEventListener('pointerleave', () => { c.style.transform = ''; });
+  });
+  // cost per appointment calculator
+  document.querySelectorAll('.viz-calc').forEach((calc) => {
+    const cpl = calc.querySelector('[name=cpl]'), rate = calc.querySelector('[name=rate]');
+    const out = calc.querySelector('[data-out]'), rateOut = calc.querySelector('[data-rate]');
+    const run = () => {
+      const c = parseFloat(cpl.value) || 0, r = parseFloat(rate.value) || 0;
+      rateOut.textContent = r + '%';
+      out.textContent = r > 0 ? '$' + (c / (r / 100)).toFixed(2) : '—';
+    };
+    cpl.addEventListener('input', run); rate.addEventListener('input', run); run();
+  });
+})();
