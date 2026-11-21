@@ -2598,7 +2598,7 @@ a.blog-card:hover {
 
 /* Phone hero rhythm: even spacing, lighter CTAs */
 @media (max-width: 560px) {
-  .hero { padding-top: clamp(36px, 7vh, 72px); padding-bottom: 110px; }
+  .hero { padding-top: clamp(64px, 11vh, 104px); padding-bottom: 96px; }
   .hero__inner { gap: 0; }
   .hero__kicker { margin-bottom: 18px; }
   .hero h1 { font-size: 46px; line-height: 50px; letter-spacing: -1.8px; }
