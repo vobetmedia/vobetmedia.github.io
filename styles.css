@@ -2588,3 +2588,10 @@ a.blog-card:hover {
 /* soft fade at the bottom of the hero so the glow has no hard edge */
 .hero::after { content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: 180px; background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #000); pointer-events: none; }
 .hero__trust p { text-shadow: 0 1px 12px rgba(0, 0, 0, 0.6); }
+
+/* Phone hero follows the desktop layout: kicker centred, buttons side by side */
+@media (max-width: 560px) {
+  .hero__kicker { white-space: normal; flex-wrap: wrap; justify-content: center; text-align: center; }
+  .hero__actions { flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center; width: auto; max-width: none; gap: 10px; margin-top: 24px; }
+  .hero__actions .btn { width: auto; min-height: 0; padding: 14px 20px; font-size: 15px; }
+}
